@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-surface-strong pt-8 text-center text-sm text-muted">
-          <p>Addie Segal | Cog-Fun for ADHD | NY, NJ & Telehealth</p>
+          <p>&copy; {currentYear} Addie Segal, OTD. All rights reserved.</p>
         </div>
       </div>
     </footer>

@@ -35,7 +35,9 @@ export default function About() {
                   alt="Portrait of Dr. Addie Segal"
                   className="w-[400px] max-w-full h-auto object-cover rounded-2xl"
                   width={400}
-                  height={400}
+                  height={500}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
