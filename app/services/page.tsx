@@ -69,11 +69,11 @@ export default function Services() {
             <div className="space-y-6">
               <div className="bg-cream p-6 rounded-3xl shadow-soft">
                 <h3 className="font-semibold text-forest mb-2">Recently Diagnosed</h3>
-                <p className="text-muted">You want practical strategies that match your ADHD experience and help you manage daily life more reliably.</p>
+                <p className="text-muted">We build an accurate picture of your ADHD profile — how ADHD has shaped your daily life, how you've been managing it, and where it's had the biggest impact. The work starts in the right place: with you, not a generic checklist.</p>
               </div>
               <div className="bg-cream p-6 rounded-3xl shadow-soft">
                 <h3 className="font-semibold text-forest mb-2">Long-Diagnosed But Still Struggling</h3>
-                <p className="text-muted">You know your ADHD, but consistency is still a problem. CogFun helps turn good intentions into real daily progress.</p>
+                <p className="text-muted">You've been living with ADHD for a while, but some of the strategies you're using may actually be draining you. CogFun helps you identify what's working, let go of what isn't, and build on strategies that transfer across different situations and environments.</p>
               </div>
               <div className="bg-cream p-6 rounded-3xl shadow-soft">
                 <h3 className="font-semibold text-forest mb-2">On Medication but Still Struggling</h3>
@@ -166,12 +166,12 @@ export default function Services() {
         <section className="py-16 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-6">Ready to start?</h2>
-            <p className="text-lg text-muted mb-8">Schedule a free 20-minute consultation to discuss your specific challenges and see if CogFun is the right fit.</p>
+            <p className="text-lg text-muted mb-8">Schedule a free 15-minute consultation to discuss your specific challenges and see if CogFun is the right fit.</p>
             <Link
               href="/services"
               className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors inline-block"
             >
-              Book a Free 20-Minute Consultation
+              Book a Free 15-Minute Consultation
             </Link>
           </div>
         </section>

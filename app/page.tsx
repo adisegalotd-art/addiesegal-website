@@ -52,10 +52,10 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="#book-consultation"
+                href="#cogfun-section"
                 className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors text-center"
               >
-                Book a free consultation
+                Book a free 15-minute consultation
               </Link>
               <Link
                 href="#cogfun-section"
@@ -161,21 +161,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA Section */}
-      <section id="book-consultation" className="py-16 bg-cream">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-6">Ready to explore if CogFun is right for you?</h2>
-          <p className="text-lg text-muted mb-8 leading-relaxed">
-            Schedule a free 20-minute consultation to discuss your needs and learn more about how occupational therapy can help.
-          </p>
-          <Link
-            href="/services"
-            className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors inline-block"
-          >
-            Book a Free Consultation
-          </Link>
-        </div>
-      </section>
+
     </>
   );
 }
