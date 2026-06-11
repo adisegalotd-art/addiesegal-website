@@ -6,11 +6,11 @@ export default function Footer() {
   return (
     <footer className="bg-surface border-t border-surface-strong mt-16">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="font-serif text-forest mb-4">Addie Segal, OTD | Cog-Fun Occupational Therapy for Adult ADHD | New Jersey, New York & Telehealth</h3>
+            <h3 className="font-serif text-forest mb-4">Addie Segal | Cog-Fun for ADHD | NY, NJ & Telehealth</h3>
             <p className="text-sm text-muted">
-              Practical occupational therapy for adults with ADHD, purposefully designed for daily life.
+              Addie Segal | Cog-Fun for ADHD | NY, NJ & Telehealth
             </p>
           </div>
           <div>
@@ -32,7 +32,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="border-t border-surface-strong pt-8 text-center text-sm text-muted">
-          <p>&copy; {currentYear} Addie Segal, OTD. All rights reserved.</p>
+          <p>Addie Segal | Cog-Fun for ADHD | NY, NJ & Telehealth</p>
         </div>
       </div>
     </footer>
