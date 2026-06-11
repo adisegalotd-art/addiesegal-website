@@ -9,9 +9,6 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <h3 className="font-serif text-forest mb-4">Addie Segal | Cog-Fun for ADHD | NY, NJ & Telehealth</h3>
-            <p className="text-sm text-muted">
-              Addie Segal | Cog-Fun for ADHD | NY, NJ & Telehealth
-            </p>
           </div>
           <div>
             <h4 className="font-semibold text-forest mb-4">Location</h4>
