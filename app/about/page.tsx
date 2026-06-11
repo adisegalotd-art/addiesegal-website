@@ -28,12 +28,16 @@ export default function About() {
                 As the only CogFun-certified occupational therapist for adults in the United States, I bring an evidence-based, practical approach to ADHD care that focuses on what actually helps you function day to day.
               </p>
             </div>
-            <div className="rounded-3xl overflow-hidden shadow-soft bg-white">
-              <img
-                src="/headshot.png"
-                alt="Portrait of Dr. Addie Segal"
-                className="w-full h-full object-cover"
-              />
+            <div className="flex justify-center lg:justify-end">
+              <div className="rounded-2xl overflow-hidden shadow-soft bg-white order-first lg:order-last">
+                <img
+                  src="/headshot.png"
+                  alt="Portrait of Dr. Addie Segal"
+                  className="w-[400px] max-w-full h-auto object-cover rounded-2xl"
+                  width={400}
+                  height={400}
+                />
+              </div>
             </div>
           </div>
         </div>
