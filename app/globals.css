@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-text-dark;
+}
+
+a {
+  @apply text-muted-blue hover:text-sage transition-colors;
+}
+
+button {
+  @apply transition-all duration-200;
+}
+
+.expandable-section {
+  @apply border-l-4 border-sage pl-4 py-3 mb-4 bg-warm-gray rounded;
+}
+
+.expandable-trigger {
+  @apply flex items-center justify-between cursor-pointer font-semibold text-text-dark hover:text-sage transition-colors;
+}
+
+.expandable-content {
+  @apply text-gray-700 leading-relaxed;
+}
