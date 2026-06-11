@@ -4,28 +4,28 @@ import Link from 'next/link';
 
 export default function Navigation() {
   return (
-    <nav className="sticky top-0 z-50 bg-cream border-b border-warm-gray shadow-sm">
+    <nav className="sticky top-0 z-50 bg-cream border-b border-surface shadow-soft">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-        <div className="flex items-center justify-between">
-          <Link href="/" className="font-bold text-text-dark hover:text-sage transition-colors text-lg">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+          <Link href="/" className="font-serif text-forest hover:text-forest-dark text-lg">
             Addie Segal, OTD
           </Link>
-          <div className="flex items-center gap-6 sm:gap-8">
-            <Link href="/" className="text-sm hover:text-sage transition-colors">
+          <div className="flex flex-wrap items-center gap-4 text-sm">
+            <Link href="/" className="hover:text-forest-dark">
               Home
             </Link>
-            <Link href="/services" className="text-sm hover:text-sage transition-colors">
+            <Link href="/services" className="hover:text-forest-dark">
               Services
             </Link>
-            <Link href="/blog" className="text-sm hover:text-sage transition-colors">
+            <Link href="/blog" className="hover:text-forest-dark">
               Blog
             </Link>
-            <Link href="/about" className="text-sm hover:text-sage transition-colors">
+            <Link href="/about" className="hover:text-forest-dark">
               About
             </Link>
-            <Link 
-              href="#book-consultation" 
-              className="px-4 py-2 bg-sage text-white rounded-lg text-sm font-semibold hover:bg-muted-blue transition-colors"
+            <Link
+              href="#book-consultation"
+              className="px-4 py-2 bg-forest text-white rounded-full text-sm font-semibold hover:bg-forest-dark transition-colors"
             >
               Book a Call
             </Link>

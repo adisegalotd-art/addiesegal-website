@@ -127,7 +127,7 @@ netlify deploy --prod --dir=out
 
 ## Environment Variables
 
-No environment variables needed for this static site.
+- `PEXELS_API_KEY` (optional): Add this environment variable enables build-time hero image fetching for blog posts via the Pexels API.
 
 ## SEO Features
 

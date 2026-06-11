@@ -7,25 +7,33 @@ html {
 }
 
 body {
-  @apply bg-cream text-text-dark;
+  @apply bg-cream text-text-dark font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-serif;
 }
 
 a {
-  @apply text-muted-blue hover:text-sage transition-colors;
+  @apply text-forest hover:text-forest-dark transition-colors;
 }
 
 button {
   @apply transition-all duration-200;
 }
 
+::selection {
+  @apply bg-forest text-white;
+}
+
 .expandable-section {
-  @apply border-l-4 border-sage pl-4 py-3 mb-4 bg-warm-gray rounded;
+  @apply border-l-4 border-forest pl-4 py-3 mb-4 bg-surface rounded-3xl shadow-soft;
 }
 
 .expandable-trigger {
-  @apply flex items-center justify-between cursor-pointer font-semibold text-text-dark hover:text-sage transition-colors;
+  @apply flex items-center justify-between w-full cursor-pointer font-semibold text-text-dark hover:text-forest transition-colors;
 }
 
 .expandable-content {
-  @apply text-gray-700 leading-relaxed;
+  @apply text-muted leading-relaxed;
 }
