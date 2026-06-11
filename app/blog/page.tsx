@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { blogPosts } from './content';
+import { fetchHeroImage } from './hero';
 
 export const metadata: Metadata = {
   title: 'ADHD Blog | Occupational Therapy for Adult ADHD | Addie Segal OTD',
@@ -14,13 +15,24 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogIndex() {
+export default async function BlogIndex() {
+  // Fetch hero images for all posts
+  const postsWithImages = await Promise.all(
+    blogPosts.map(async (post) => ({
+      ...post,
+      hero: await fetchHeroImage(post.heroQuery),
+    }))
+  );
+
+  const featuredPost = postsWithImages[0];
+  const otherPosts = postsWithImages.slice(1);
+
   return (
     <div className="pt-8">
-      {/* Hero */}
-      <section className="bg-gradient-to-b from-surface to-cream py-12">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-serif text-forest mb-4">
+      {/* Hero Section */}
+      <section className="bg-gradient-to-b from-surface to-cream py-8">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1 className="text-4xl sm:text-5xl font-serif text-forest mb-2">
             ADHD Resources and Insights
           </h1>
           <p className="text-lg text-muted">
@@ -29,30 +41,68 @@ export default function BlogIndex() {
         </div>
       </section>
 
+      {/* Featured Post */}
+      {featuredPost && (
+        <section className="bg-cream py-12">
+          <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <Link href={`/blog/${featuredPost.slug}`} className="block group">
+              <article className="space-y-6">
+                {featuredPost.hero ? (
+                  <div className="overflow-hidden rounded-2xl shadow-soft">
+                    <img
+                      src={featuredPost.hero.src}
+                      alt={featuredPost.heroAlt}
+                      className="w-full h-[300px] sm:h-[400px] object-cover group-hover:opacity-90 transition-opacity"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  </div>
+                ) : null}
+                <div>
+                  <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-4 group-hover:text-forest-dark transition-colors">
+                    {featuredPost.title}
+                  </h2>
+                  <p className="text-lg text-muted leading-relaxed">
+                    {featuredPost.excerpt}
+                  </p>
+                </div>
+              </article>
+            </Link>
+          </div>
+        </section>
+      )}
+
       {/* Blog Posts Grid */}
       <section className="py-16 bg-cream">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {blogPosts.map((post) => (
-              <article
-                key={post.slug}
-                className="bg-surface p-6 rounded-3xl border-l-4 border-forest shadow-soft hover:shadow-xl transition-shadow"
-              >
-                <h3 className="text-xl font-semibold text-forest mb-3 leading-snug">
-                  <Link href={`/blog/${post.slug}`} className="hover:text-forest-dark transition-colors">
-                    {post.title}
-                  </Link>
-                </h3>
-                <p className="text-muted mb-4 leading-relaxed">
-                  {post.excerpt}
-                </p>
-                <Link
-                  href={`/blog/${post.slug}`}
-                  className="text-forest font-semibold hover:text-forest-dark transition-colors"
-                >
-                  Read more →
-                </Link>
-              </article>
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {otherPosts.map((post) => (
+              <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+                <article className="bg-surface rounded-2xl overflow-hidden shadow-soft hover:shadow-xl transition-shadow h-full flex flex-col">
+                  {post.hero ? (
+                    <div className="overflow-hidden h-[250px]">
+                      <img
+                        src={post.hero.src}
+                        alt={post.heroAlt}
+                        className="w-full h-full object-cover group-hover:scale-105 transition-transform"
+                        loading="lazy"
+                        decoding="async"
+                      />
+                    </div>
+                  ) : null}
+                  <div className="p-6 flex flex-col flex-grow">
+                    <h3 className="text-lg font-semibold text-forest mb-3 leading-snug group-hover:text-forest-dark transition-colors">
+                      {post.title}
+                    </h3>
+                    <p className="text-muted text-sm leading-relaxed flex-grow">
+                      {post.excerpt}
+                    </p>
+                    <div className="mt-4 text-forest font-semibold text-sm group-hover:text-forest-dark transition-colors">
+                      Read more →
+                    </div>
+                  </div>
+                </article>
+              </Link>
             ))}
           </div>
         </div>
@@ -60,7 +110,7 @@ export default function BlogIndex() {
 
       {/* CTA */}
       <section className="py-16 bg-surface">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-serif text-forest mb-6">
             Ready to dive deeper?
           </h2>

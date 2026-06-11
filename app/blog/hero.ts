@@ -5,7 +5,7 @@ export type HeroImage = {
   creditUrl?: string;
 };
 
-const PEXELS_API_KEY = process.env.PEXELS_API_KEY;
+const PEXELS_API_KEY = process.env.PEXELS_API_KEY || 'ggBGi8d6csdvFx0Ku0qkjPsOGQuYlAl3BaDtquGTDHKzNzECONu8wMtf';
 
 export async function fetchHeroImage(query: string): Promise<HeroImage | null> {
   if (!PEXELS_API_KEY) {
