@@ -8,6 +8,7 @@ export type BlogPost = {
   excerpt: string;
   heroQuery: string;
   heroAlt: string;
+  heroSrc?: string;
   content: ReactNode[];
 };
 
@@ -20,6 +21,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'CogFun is a 25-session occupational therapy protocol for adult ADHD that focuses on how ADHD actually works in daily life.',
     heroQuery: 'CogFun occupational therapy adult ADHD',
     heroAlt: 'Adult ADHD therapy session with a calm professional',
+    heroSrc: '/blog/what-is-cogfun.png',
     content: [
       <p key="intro">
         If you have ADHD, you already know what the problem feels like: you know what needs to be done, but starting it is a different story. That is exactly where CogFun shows up.
@@ -86,6 +88,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Task initiation isn’t laziness. For people with ADHD, it’s a real brain challenge that needs real strategies.',
     heroQuery: 'ADHD task initiation challenges adult',
     heroAlt: 'Person hesitating before starting a task at a desk',
+    heroSrc: '/blog/frustrated-man-desk.png',
     content: [
       <p key="intro">
         If getting started feels harder than finishing, you are not lazy. You are experiencing something real and surprisingly common in ADHD: task initiation difficulty.
@@ -131,7 +134,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Learn how to choose the right ADHD specialist and why occupational therapy with CogFun is a strong option.',
     keywords: 'adhd specialist near me, therapist for adhd, therapists specializing in adhd, adhd therapist aid',
     excerpt: 'Finding the right ADHD specialist is about more than distance—it’s about experience, approach, and understanding adult ADHD.',
-    heroQuery: 'ADHD specialist near me therapy',
+    heroQuery: 'therapist and patient talking',
     heroAlt: 'Professional consulting with an adult client in a calm office',
     content: [
       <p key="intro">
@@ -181,7 +184,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Explore why telehealth is a strong, convenient option for adult ADHD therapy in New Jersey and New York.',
     keywords: 'adhd telehealth, adhd treatment online, telehealth adhd therapy NJ, adhd therapist NJ',
     excerpt: 'Telehealth makes ADHD therapy more accessible for adults, especially when life is already crowded and unpredictable.',
-    heroQuery: 'telehealth ADHD therapy adult',
+    heroQuery: 'woman on video call home office',
     heroAlt: 'Remote ADHD therapy session on a laptop screen',
     content: [
       <p key="intro">
@@ -225,7 +228,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Understand how ADHD changes over time and why symptoms often feel harder in adulthood.',
     keywords: 'does adhd get worse with age, can adhd get worse with age, untreated adhd in female adults, adhd symptoms in adult men',
     excerpt: 'ADHD doesn’t necessarily get worse, but adult life often makes it harder to manage—and that is where support helps.',
-    heroQuery: 'adult ADHD over time',
+    heroQuery: 'adult woman thinking window',
     heroAlt: 'A thoughtful adult looking out a window with a notebook',
     content: [
       <p key="intro">
@@ -266,7 +269,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Explore how ADHD and anxiety overlap, how they differ, and what to do when both are present.',
     keywords: 'does adhd cause anxiety, do i have adhd or anxiety, can you have ocd and adhd, psychotherapy for adhd, adhd and depression treatment',
     excerpt: 'ADHD and anxiety often feel the same, but they are different patterns that can both be true at once.',
-    heroQuery: 'ADHD and anxiety adult',
+    heroQuery: 'person overwhelmed desk papers',
     heroAlt: 'A person sitting calmly with hands folded, thinking about emotions',
     content: [
       <p key="intro">
@@ -307,7 +310,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Discover what high-functioning ADHD really looks like and why it often leads to hidden exhaustion.',
     keywords: 'high functioning adhd, am i lazy or do i have adhd, untreated adhd in female adults, adhd and mood swings',
     excerpt: 'High-functioning ADHD is often invisible from the outside and exhausting from the inside.',
-    heroQuery: 'high functioning ADHD adult',
+    heroQuery: 'professional woman tired office',
     heroAlt: 'A professional looking composed while thinking deeply',
     content: [
       <p key="intro">
@@ -347,6 +350,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'ADHD in adult women often looks quiet, busy, compassionate, and exhausted all at once.',
     heroQuery: 'adult women ADHD symptoms',
     heroAlt: 'Woman thinking deeply in a soft-lit room',
+    heroSrc: '/blog/women-adhd-diagnosis.png',
     content: [
       <p key="intro">
         ADHD in adult women is often baited as “stress” or “overwhelm.” That is because it frequently shows up as quiet distraction, emotional overwhelm, and doing too much to cover for what’s needed.
@@ -385,6 +389,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'RSD feels like emotional pain turned up loud—and it is a common part of many ADHD experiences.',
     heroQuery: 'rejection sensitive dysphoria ADHD',
     heroAlt: 'Contemplative adult with emotional expression in a cozy setting',
+    heroSrc: '/blog/rsd-adhd.png',
     content: [
       <p key="intro">
         Rejection Sensitive Dysphoria (RSD) is not a personality flaw. It is a painful emotional response that often comes with ADHD, especially when you’ve felt misunderstood for a long time.
@@ -421,7 +426,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Find practical non-medication strategies for ADHD focus and why generic advice often falls short.',
     keywords: 'how to focus with adhd, how to focus with adhd without medication, how to treat adhd in adults without meds, executive functioning coaches near me',
     excerpt: 'Focus with ADHD is possible without medication, but it requires strategies built around how your brain works—not around willpower.',
-    heroQuery: 'focus ADHD without medication',
+    heroQuery: 'person meditating calm',
     heroAlt: 'A person calmly focusing at a desk with warm light',
     content: [
       <p key="intro">
@@ -458,7 +463,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Learn what occupational therapy brings to ADHD care and why it is often the missing piece for adults.',
     keywords: 'occupational therapy adhd, occupational therapy and adhd, adhd therapy, therapists specializing in adhd, executive function therapy adults',
     excerpt: 'Occupational therapy is the often-missing bridge between awareness and actual daily functioning for adults with ADHD.',
-    heroQuery: 'occupational therapy ADHD adult',
+    heroQuery: 'hands working creative task',
     heroAlt: 'Therapist and adult client reviewing practical strategies together',
     content: [
       <p key="intro">
@@ -496,7 +501,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Explore whether ADHD is considered a disability and how functional support matters in work and daily life.',
     keywords: 'is adhd considered a disability, does adhd count as a disability, is adhd a learning disability, is adhd neurodivergent, is adhd an intellectual disability',
     excerpt: 'ADHD can be a disability in practical terms, especially when it affects daily functioning at work and home.',
-    heroQuery: 'ADHD disability work life',
+    heroQuery: 'person at work desk confident',
     heroAlt: 'Adult working with ADHD in a calm home office setting',
     content: [
       <p key="intro">
@@ -532,6 +537,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: 'Executive function is the practical part of the brain that ADHD disrupts, and that is exactly what CogFun works on.',
     heroQuery: 'ADHD executive function everyday tasks',
     heroAlt: 'A person organizing their day with notes and a warm background',
+    heroSrc: '/blog/adhd-brain-icon.png',
     content: [
       <p key="intro">
         Executive function is the brain’s planning and organizing system. For people with ADHD, that system is often unreliable, which is why everyday tasks can feel harder than they should.
@@ -564,7 +570,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Explore how ADHD causes emotional dysregulation and what can help you manage mood swings in everyday life.',
     keywords: 'adhd and mood swings, what is rsd adhd, does adhd cause anxiety, does anxiety cause adhd',
     excerpt: 'ADHD can make emotions feel louder and harder to control, and that is part of why life feels more volatile than it should.',
-    heroQuery: 'ADHD mood swings emotional dysregulation',
+    heroQuery: 'woman deep in thought',
     heroAlt: 'A person sitting thoughtfully with a warm background, reflecting on emotions',
     content: [
       <p key="intro">
@@ -598,7 +604,7 @@ export const blogPosts: BlogPost[] = [
     description: 'Learn the adult ADHD testing process, who can diagnose it, and what to do after diagnosis.',
     keywords: 'how can i get tested for adhd, how to get screened for adhd, can a therapist diagnose adhd, who does adhd testing, adhd specialist near me',
     excerpt: 'Getting tested for ADHD as an adult can feel confusing. Here’s what to expect and what comes next.',
-    heroQuery: 'adult ADHD testing process',
+    heroQuery: 'doctor patient consultation',
     heroAlt: 'A friendly clinician meeting with an adult patient over video call',
     content: [
       <p key="intro">

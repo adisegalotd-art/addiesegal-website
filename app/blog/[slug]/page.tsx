@@ -67,7 +67,9 @@ export default async function BlogPostPage({ params }: { params: { slug: string 
     );
   }
 
-  const hero = await fetchHeroImage(post.heroQuery);
+  const hero = post.heroSrc
+    ? { src: post.heroSrc, alt: post.heroAlt }
+    : await fetchHeroImage(post.heroQuery);
 
   return <PostContent post={post} hero={hero} />;
 }
