@@ -72,11 +72,8 @@ export default function Home() {
       <section className="py-16 bg-cream">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-8">More than just difficulty focusing</h2>
-          <p className="text-lg text-muted mb-6 leading-relaxed">
-            Adult ADHD often looks like an intelligent, capable person who knows exactly what needs to happen and still can&apos;t get started. Or you start, and somewhere along the way you lose the thread, scrolling on your phone with no memory of how you got there. Or something small goes wrong and you snap at someone you love, then spend the rest of the day replaying it.
-          </p>
           <p className="text-lg text-muted mb-8 leading-relaxed">
-            Medication helps a lot of people manage focus and impulsivity. Therapy can help with the emotional side. But knowing what to do and actually doing it consistently? That&apos;s the part that&apos;s still missing for a lot of adults with ADHD — and that&apos;s exactly where CogFun comes in.
+            Adult ADHD often looks like an intelligent, capable person who knows exactly what needs to happen and still can&apos;t get started. Or you start, and somewhere along the way you lose the thread, scrolling on your phone with no memory of how you got there. Or something small goes wrong and you snap at someone you love, then spend the rest of the day replaying it. Medication helps a lot of people manage focus and impulsivity. Therapy can help with the emotional side. But knowing what to do and actually doing it consistently? That&apos;s the part that&apos;s still missing for a lot of adults with ADHD — and that&apos;s exactly where CogFun comes in.
           </p>
 
           <div className="space-y-4">
