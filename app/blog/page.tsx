@@ -30,12 +30,20 @@ export default async function BlogIndex() {
   return (
     <div className="pt-8">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-surface to-cream py-8">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h1 className="text-4xl sm:text-5xl font-serif text-forest mb-2">
+      <section className="relative h-[340px] sm:h-[420px] overflow-hidden">
+        <img
+          src="/blog/blog_hero_sunset.jpg"
+          alt="Warm sunset light over a calm landscape"
+          className="absolute inset-0 w-full h-full object-cover object-center"
+          loading="eager"
+          decoding="async"
+        />
+        <div className="absolute inset-0 bg-forest/50" />
+        <div className="relative z-10 flex flex-col justify-end h-full max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-10">
+          <h1 className="text-4xl sm:text-5xl font-serif text-white mb-2 drop-shadow">
             ADHD Resources and Insights
           </h1>
-          <p className="text-lg text-muted">
+          <p className="text-lg text-white/90">
             Evidence-based articles on adult ADHD, occupational therapy, and the CogFun protocol.
           </p>
         </div>
