@@ -40,7 +40,7 @@ export default function Services() {
       />
 
       <div className="pt-8">
-        <section className="bg-gradient-to-b from-surface to-cream py-12">
+        <section className="bg-gradient-to-b from-surface to-cream pt-6 pb-8">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl sm:text-5xl font-serif text-forest mb-6">
               CogFun Occupational Therapy for Adult ADHD in New Jersey and New York
@@ -51,7 +51,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="py-16 bg-cream">
+        <section className="py-8 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">What is CogFun?</h2>
             <p className="text-lg text-muted leading-relaxed mb-6">
@@ -63,7 +63,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="py-16 bg-surface">
+        <section className="py-8 bg-surface">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">Who is it for?</h2>
             <div className="space-y-6">
@@ -87,7 +87,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="py-16 bg-cream">
+        <section className="py-8 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">The Four Units of CogFun</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -111,7 +111,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="py-16 bg-surface">
+        <section className="py-8 bg-surface">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">What to Expect</h2>
             <div className="space-y-6">
@@ -135,7 +135,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="py-16 bg-cream">
+        <section className="py-8 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">What Makes CogFun Different</h2>
             <p className="text-lg text-muted leading-relaxed">
@@ -144,7 +144,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="py-16 bg-surface">
+        <section className="py-8 bg-surface">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">Telehealth Available in New Jersey and New York</h2>
             <p className="text-muted leading-relaxed mb-6">Secure telehealth sessions make therapy accessible and convenient, without the need to commute.</p>
@@ -152,7 +152,7 @@ export default function Services() {
           </div>
         </section>
 
-        <section className="py-16 bg-cream">
+        <section className="py-8 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-6">Ready to start?</h2>
             <p className="text-lg text-muted mb-8">Schedule a free 15-minute consultation to discuss your specific challenges and see if CogFun is the right fit.</p>
