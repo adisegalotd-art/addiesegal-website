@@ -30,6 +30,9 @@ export default function Footer() {
         </div>
         <div className="border-t border-surface-strong pt-8 text-center text-sm text-muted">
           <p>&copy; {currentYear} Addie Segal, OTD. All rights reserved.</p>
+          <p className="text-xs text-muted leading-relaxed mt-3 max-w-2xl mx-auto">
+            The content on this website is for educational and informational purposes only and is not intended as a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of a qualified healthcare provider with any questions regarding a medical condition.
+          </p>
         </div>
       </div>
     </footer>

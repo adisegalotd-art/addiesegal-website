@@ -48,7 +48,7 @@ export default function Home() {
               You know what you need to do. Starting it is the problem.
             </h1>
             <p className="text-lg sm:text-xl text-muted mb-8 leading-relaxed max-w-3xl mx-auto">
-              You see the work, you care about it, and still you don&apos;t start, or you start and lose focus, and before you know it it&apos;s the end of the day and you didn&apos;t do most of what you planned. You find yourself snapping at someone you care about. The guilt cycle continues. That is ADHD.
+              You see the work, you care about it, and still you don&apos;t start, or you start and lose focus, and before you know it it&apos;s the end of the day and you didn&apos;t do most of what you planned. You find yourself snapping at someone you care about. The guilt cycle continues. This is where CogFun can help.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -61,7 +61,7 @@ export default function Home() {
                 href="#cogfun-section"
                 className="px-8 py-3 border-2 border-forest text-forest rounded-full font-semibold hover:bg-forest-soft hover:text-forest-dark transition-colors text-center"
               >
-                Learn about CogFun
+                Learn about CogFun for ADHD
               </Link>
             </div>
           </div>

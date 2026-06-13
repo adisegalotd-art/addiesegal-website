@@ -36,6 +36,9 @@ function PostContent({ post, hero }: { post: BlogPost; hero: { src: string; alt:
           <div className="prose prose-slate max-w-none text-muted leading-relaxed">
             {post.content}
           </div>
+          <p className="text-xs text-muted mt-10 pt-6 border-t border-surface-strong leading-relaxed">
+            This post is for informational purposes and is not a substitute for individualized clinical assessment.
+          </p>
         </div>
       </div>
     </article>
