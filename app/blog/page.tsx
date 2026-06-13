@@ -16,11 +16,13 @@ export const metadata: Metadata = {
 };
 
 export default async function BlogIndex() {
-  // Fetch hero images for all posts
+  // Use local heroSrc when available, otherwise fetch from Pexels
   const postsWithImages = await Promise.all(
     blogPosts.map(async (post) => ({
       ...post,
-      hero: await fetchHeroImage(post.heroQuery),
+      hero: post.heroSrc
+        ? { src: post.heroSrc, alt: post.heroAlt }
+        : await fetchHeroImage(post.heroQuery),
     }))
   );
 
