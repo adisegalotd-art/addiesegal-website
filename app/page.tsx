@@ -44,6 +44,9 @@ export default function Home() {
       <section className="min-h-screen bg-gradient-to-b from-surface to-cream flex items-center py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
+            <p className="text-sm font-sans font-medium tracking-widest uppercase text-muted mb-4">
+              Occupational therapy for adult ADHD using CogFun, an evidence-based approach.
+            </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-forest mb-6 leading-tight">
               You know what you need to do. Starting it is the problem.
             </h1>
