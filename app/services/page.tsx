@@ -43,7 +43,7 @@ export default function Services() {
         <section className="bg-gradient-to-b from-surface to-cream pt-6 pb-8">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl sm:text-5xl font-serif text-forest mb-6">
-              CogFun Occupational Therapy for Adult ADHD in New Jersey and New York
+              ADHD Therapy Using the CogFun Protocol: An Evidence-Based Approach
             </h1>
             <p className="text-lg text-muted max-w-3xl">
               A practical, research-backed occupational therapy protocol for adults with ADHD. Telehealth sessions are available across New Jersey and New York.
