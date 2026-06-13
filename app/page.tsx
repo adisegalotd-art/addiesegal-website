@@ -41,9 +41,9 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-surface to-cream flex flex-col justify-start pt-12 pb-16">
+      <section className="relative bg-gradient-to-b from-surface to-cream flex flex-col justify-start pt-6 pb-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-          <div className="text-center mb-12">
+          <div className="text-center mb-6">
             <p className="text-sm font-sans font-medium tracking-widest uppercase text-muted mb-4">
               Occupational therapy for adult ADHD using CogFun, an evidence-based approach.
             </p>
@@ -83,7 +83,7 @@ export default function Home() {
       </section>
 
       {/* More Than Just Difficulty Focusing */}
-      <section id="more-section" className="py-10 bg-cream">
+      <section id="more-section" className="pt-6 pb-10 bg-cream">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-8">More than just difficulty focusing</h2>
           <p className="text-lg text-muted mb-6 leading-relaxed">
