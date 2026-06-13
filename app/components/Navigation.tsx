@@ -20,6 +20,9 @@ export default function Navigation() {
             <Link href="/blog" className="hover:text-forest-dark">
               Blog
             </Link>
+            <Link href="/faq" className="hover:text-forest-dark">
+              FAQ
+            </Link>
             <Link href="/about" className="hover:text-forest-dark">
               About
             </Link>
