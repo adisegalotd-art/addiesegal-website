@@ -384,6 +384,9 @@ export const blogPosts: BlogPost[] = [
       <p key="why-para">
         When ADHD goes unrecognized, treatment for anxiety or depression may address some symptoms while the underlying functional challenges persist.
       </p>,
+      <p key="diagnosis-gap">
+        The research reflects this gap: women with ADHD are diagnosed on average about 5 years later than men, even though symptoms typically emerge at the same age (Amoretti et al., 2025, European Psychiatry / ECNP Congress). Those are years of struggling without the right framework.
+      </p>,
       <h2 key="rsd" className="text-2xl font-semibold text-forest mt-10 mb-4">A Note on RSD</h2>,
       <p key="rsd-para">
         Rejection Sensitive Dysphoria is common in ADHD and often feels especially intense for women who have spent years trying to be a certain way. It's real, and it's part of the story. Learn more about <a href="/blog/what-is-rsd-adhd" className="text-forest hover:text-forest-dark underline">what RSD is and how it shows up in ADHD</a>.

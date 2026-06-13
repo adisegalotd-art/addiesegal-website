@@ -76,7 +76,7 @@ export default function Home() {
             Adult ADHD often looks like an intelligent, capable person who knows what needs to happen and still can&apos;t get started. It&apos;s knowing you have massive potential but struggling to fulfill it. It&apos;s shining with creative tasks but struggling with the mundane, necessary ones. CogFun therapy focuses on the daily functioning layer that is sometimes missing in other types of treatment.
           </p>
           <p className="text-lg text-muted mb-8 leading-relaxed">
-            Women with ADHD are diagnosed on average about 5 years later than men, even though symptoms typically emerge at the same age (Amoretti et al., 2025, European Psychiatry / ECNP Congress). Nearly half of adults with ADHD also experience anxiety (Kessler et al., 2006). Medication helps a lot of people manage focus and impulsivity. Therapy can help with the emotional side. But knowing what to do and actually doing it consistently is the part that is still missing for a lot of adults with ADHD, and that is exactly where CogFun comes in.
+            Medication helps a lot of people manage focus and impulsivity. Therapy can help with the emotional side. But knowing what to do and actually doing it consistently is the part that is still missing for a lot of adults with ADHD, and that is exactly where CogFun comes in.
           </p>
 
           <div className="space-y-4">
