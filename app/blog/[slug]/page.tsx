@@ -36,14 +36,6 @@ function PostContent({ post, hero }: { post: BlogPost; hero: { src: string; alt:
           <div className="prose prose-slate max-w-none text-muted leading-relaxed">
             {post.content}
           </div>
-
-          <div className="rounded-3xl bg-surface border border-surface-strong p-6 shadow-soft">
-            <p className="font-semibold text-forest mb-4">Need practical support for ADHD?</p>
-            <p className="text-muted mb-4">Book a free 15-minute consultation and discover how CogFun occupational therapy can help you function better in daily life.</p>
-            <Link href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">
-              Book a free 15-minute consultation
-            </Link>
-          </div>
         </div>
       </div>
     </article>

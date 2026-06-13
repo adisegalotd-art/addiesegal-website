@@ -27,54 +27,54 @@ export const blogPosts: BlogPost[] = [
         If you have ADHD, you already know what the problem feels like: you know what needs to be done, but starting it is a different story. That is exactly where CogFun shows up.
       </p>,
       <p key="intro2">
-        This isn’t a productivity hack or a motivational pep talk. CogFun is a research-backed occupational therapy protocol designed specifically for adults with ADHD. It’s practical, patient, and honest about the fact that this isn’t a magic cure.
+        CogFun is a research-backed occupational therapy protocol designed specifically for adults with ADHD. It is practical, patient, and honest about the fact that it is not a magic cure.
       </p>,
       <p key="services-link">
         To see how this approach is used in practice, visit the <a href="/services" className="text-forest hover:text-forest-dark underline">CogFun occupational therapy services page</a>.
       </p>,
       <h2 key="origin" className="text-2xl font-semibold text-forest mt-10 mb-4">Where CogFun Comes From</h2>,
       <p key="origin-para">
-        CogFun was developed by Adina Maeir at Hebrew University, and it showed up in peer-reviewed research because it was built around real-world function. In other words, it’s not theory dressed up as therapy—it’s grounded in studies with adults who actually use it.
+        CogFun was developed by Adina Maeir at Hebrew University. It was built around real-world function and grounded in peer-reviewed studies with adults who actually use it.
       </p>,
       <p key="origin-para2">
         The work is published in the American Journal of Occupational Therapy, and that matters because it proves CogFun is more than good intentions.
       </p>,
       <h2 key="different" className="text-2xl font-semibold text-forest mt-10 mb-4">How CogFun Is Different</h2>,
       <p key="different-para">
-        Most ADHD programs stop at one of two places: medication or talk therapy. CogFun sits in between, where the real daily frustration happens. It asks, “What does your day actually look like?" and then helps you make it work.
+        Most ADHD programs stop at one of two places: medication or talk therapy. CogFun sits in between, where the real daily frustration happens. It asks, "What does your day actually look like?" and then helps you make it work.
       </p>,
       <p key="different-para2">
-        It’s the difference between understanding your ADHD and learning the exact practical moves that help you get through the day with less guilt and less chaos. For a broader look at how occupational therapy fills this gap, see <a href="/blog/occupational-therapy-adhd-adults" className="text-forest hover:text-forest-dark underline">why OT is different from everything else you’ve tried</a>.
+        It's the difference between understanding your ADHD and learning the exact practical moves that help you get through the day with less guilt and less chaos. For a broader look at how occupational therapy fills this gap, see <a href="/blog/occupational-therapy-adhd-adults" className="text-forest hover:text-forest-dark underline">why OT is different from everything else you've tried</a>.
       </p>,
       <h2 key="units" className="text-2xl font-semibold text-forest mt-10 mb-4">The Four Units of CogFun</h2>,
       <div key="units-list" className="space-y-4">
         <div className="rounded-3xl bg-surface border border-surface-strong p-5 shadow-soft">
           <h3 className="font-semibold text-forest mb-2">Shared learning</h3>
-          <p>We build a true picture of how ADHD shows up in your life, without blame. This is the phase where the story shifts from “I should just try harder" to “I can do better with the right support.”</p>
+          <p>We build a true picture of how ADHD shows up in your life, without blame. This is the phase where the story shifts from "I should just try harder" to "I can do better with the right support."</p>
         </div>
         <div className="rounded-3xl bg-surface border border-surface-strong p-5 shadow-soft">
           <h3 className="font-semibold text-forest mb-2">Strategy acquisition</h3>
-          <p>We look at what you already do, keep what works, and discard what doesn’t. It’s not about inventing a new you—it’s about making your brain’s existing strategies more reliable.</p>
+          <p>We analyze daily situations and interactions, identifying the strategies you're already using, which ones work, and which ones take too much energy.</p>
         </div>
         <div className="rounded-3xl bg-surface border border-surface-strong p-5 shadow-soft">
           <h3 className="font-semibold text-forest mb-2">General strategy development</h3>
-          <p>We turn helpful habits into something you can use in many situations. The goal is not perfection; it’s something that fits your life and your energy.</p>
+          <p>We turn helpful habits into something you can use in many situations. The goal is something that fits your life and your energy.</p>
         </div>
         <div className="rounded-3xl bg-surface border border-surface-strong p-5 shadow-soft">
           <h3 className="font-semibold text-forest mb-2">Integration and self-management</h3>
-          <p>This is where the work becomes yours. We build a plan that can keep going after the sessions end, because real change has to last beyond the appointment.</p>
+          <p>We review everything and build a plan to last beyond the sessions.</p>
         </div>
       </div>,
       <h2 key="research" className="text-2xl font-semibold text-forest mt-10 mb-4">The Evidence</h2>,
       <p key="research-para">
-        The research isn’t flashy, and that’s okay. The important part is that CogFun has been studied and shown to help adults with ADHD in real life. That means you’re not experimenting on yourself—you’re using a model with evidence behind it.
+        The research isn't flashy, and that's okay. The important part is that CogFun has been studied and shown to help adults with ADHD in real life. You're using a model with evidence behind it.
       </p>,
       <p key="research-para2">
-        And yes, it has limits. It doesn’t erase ADHD or act like a quick fix. It gives you tools for the part of ADHD that medication and coaching often miss.
+        And yes, it has limits. It gives you tools for the part of ADHD that medication and coaching often miss.
       </p>,
       <h2 key="cta" className="text-2xl font-semibold text-forest mt-10 mb-4">Is CogFun Right for You?</h2>,
       <p key="cta-para">
-        If you’ve been told to try harder, or if you’ve already done the meds/therapy/coach loop and are still struggling with the real day-to-day, CogFun may be exactly what you need. It’s designed for adults who want practical change—not just understanding.
+        If you've been told to try harder, or if you've already done the meds/therapy/coach loop and are still struggling with the real day-to-day, CogFun may be exactly what you need. It's designed for adults who want practical change rather than abstract understanding.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Ready to take a different approach?</p>
@@ -88,7 +88,7 @@ export const blogPosts: BlogPost[] = [
     title: "Why You're Not Lazy: Understanding Task Initiation and ADHD",
     description: 'Learn why task initiation feels impossible with ADHD and how practical strategies can help.',
     keywords: 'is procrastination a sign of adhd, how to focus with adhd, executive functioning coaches near me',
-    excerpt: 'Task initiation isn’t laziness. For people with ADHD, it’s a real brain challenge that needs real strategies.',
+    excerpt: "Task initiation isn't laziness. For people with ADHD, it's a real brain challenge that needs real strategies.",
     heroQuery: 'ADHD task initiation challenges adult',
     heroAlt: 'Person hesitating before starting a task at a desk',
     heroSrc: '/blog/frustrated-man-desk.png',
@@ -97,38 +97,38 @@ export const blogPosts: BlogPost[] = [
         If getting started feels harder than finishing, you are not lazy. You are experiencing something real and surprisingly common in ADHD: task initiation difficulty.
       </p>,
       <p key="intro2">
-        It can feel like the brain is asking for a larger reward than the task offers. That is not moral failure. It is a neurological wiring issue, and it is fixable in practical ways.
+        It can feel like the brain is asking for a larger reward than the task offers.
       </p>,
       <p key="services-link">
         Read more about <a href="/services" className="text-forest hover:text-forest-dark underline">our ADHD treatment approach</a> and how it supports task initiation challenges.
       </p>,
       <h2 key="neuroscience" className="text-2xl font-semibold text-forest mt-10 mb-4">What Happens in the Brain</h2>,
       <p key="neuro-para">
-        ADHD changes how your brain evaluates effort and reward. Tasks that are boring, uncertain, or slow to pay off may not trigger the same launch system that gets other people moving. That’s why it feels like pushing through concrete.
+        ADHD changes how your brain evaluates effort and reward. Tasks that are boring, uncertain, or slow to pay off may not trigger the same reward system that gets other people moving. That's why it feels like pushing through concrete.
       </p>,
       <p key="neuro-para2">
-        The result is not laziness. It’s a brain that needs different signals to start a task—more structure, more meaningful cues, and better alignment with your own priorities. This is closely tied to <a href="/blog/adhd-executive-function-daily-life" className="text-forest hover:text-forest-dark underline">how ADHD disrupts executive function</a> across all of daily life.
+        The brain needs different signals to start a task: more structure, more meaningful cues, and better alignment with your own priorities. This is closely tied to <a href="/blog/adhd-executive-function-daily-life" className="text-forest hover:text-forest-dark underline">how ADHD disrupts executive function</a> across all of daily life.
       </p>,
-      <h2 key="willpower" className="text-2xl font-semibold text-forest mt-10 mb-4">Why Willpower Alone Isn’t Enough</h2>,
+      <h2 key="willpower" className="text-2xl font-semibold text-forest mt-10 mb-4">Why Willpower Alone Isn't Enough</h2>,
       <p key="willpower-para">
-        Willpower is a tiny battery. If ADHD is draining that battery before you even begin, telling yourself to “try harder" is like asking a phone to run all day on 5% charge.
+        Willpower is a tiny battery. If ADHD is draining that battery before you even begin, telling yourself to "try harder" is like asking a phone to run all day on 5% charge.
       </p>,
       <p key="willpower-para2">
-        This is where strategy matters more than shame. The goal is not to feel guilty about delay; it is to build a practical setup that makes starting easier.
+        Building a practical setup that makes starting easier matters more than forcing your way through resistance.
       </p>,
       <h2 key="cogfun" className="text-2xl font-semibold text-forest mt-10 mb-4">How CogFun Helps</h2>,
       <p key="cogfun-para">
-        CogFun doesn’t just tell you to “plan better." It helps you understand the actual situations where you freeze, the strategies you already reach for, and how to create a start routine that works for your brain.
+        CogFun doesn't just tell you to "plan better." It helps you understand the actual situations where you freeze, the strategies you already reach for, and how to create a start routine that works for your brain.
       </p>,
       <p key="cogfun-para2">
-        It’s not magic. It’s a structured, evidence-based approach that builds on your real life, not on generic productivity advice.
+        CogFun is a structured, evidence-based approach that builds on your real life rather than generic productivity advice.
       </p>,
       <h2 key="realistic" className="text-2xl font-semibold text-forest mt-10 mb-4">The Honest Truth</h2>,
       <p key="realistic-para">
-        This isn’t a cure. There will still be days when you struggle to begin. But with the right support, those days become less frequent and less punishing.
+        This isn't a cure. There will still be days when you struggle to begin. But with the right support, those days become less frequent, and you'll have real tools to navigate them.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
-        <p className="mb-4 text-forest font-semibold">Ready to stop blaming yourself?</p>
+        <p className="mb-4 text-forest font-semibold">Want to learn more about CogFun?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore practical, ADHD-friendly strategies for starting the things that matter.</p>
         <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
@@ -136,49 +136,42 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-specialist-near-me-what-to-look-for',
-    title: 'Searching for an ADHD Specialist Near You? Here’s What to Actually Look For',
+    title: "Searching for an ADHD Specialist Near You? Here's What to Actually Look For",
     description: 'Learn how to choose the right ADHD specialist and why occupational therapy with CogFun is a strong option.',
     keywords: 'adhd specialist near me, therapist for adhd, therapists specializing in adhd, adhd therapist aid',
-    excerpt: 'Finding the right ADHD specialist is about more than distance—it’s about experience, approach, and understanding adult ADHD.',
+    excerpt: 'Finding the right ADHD specialist means understanding what kind of support connects to the daily challenges you actually face.',
     heroQuery: 'therapist and patient talking',
     heroAlt: 'Professional consulting with an adult client in a calm office',
     content: [
       <p key="intro">
-        Searching for “ADHD specialist near me" can feel like shopping in a foreign language. There are psychiatrists, psychologists, therapists, coaches, and occupational therapists—and they are not all the same.
+        Searching for ADHD support as an adult can feel overwhelming. Understanding what occupational therapy offers can help you identify whether it's the right fit for where you are.
       </p>,
       <p key="intro2">
-        The best fit is the one who understands what your life feels like now, not the one with the most letters after their name.
+        Finding the right specialist means understanding how their approach connects to the daily challenges you actually face.
       </p>,
       <p key="services-link">
-        Learn why <a href="/services" className="text-forest hover:text-forest-dark underline">CogFun occupational therapy</a> is different from standard ADHD care.
+        Learn why <a href="/services" className="text-forest hover:text-forest-dark underline">CogFun occupational therapy</a> is a strong option for adult ADHD support.
       </p>,
-      <h2 key="provider-types" className="text-2xl font-semibold text-forest mt-10 mb-4">Who Does What</h2>,
-      <p key="provider-types-para">
-        A psychiatrist can diagnose ADHD and prescribe medication. A psychologist can help with mood, anxiety, and thought patterns. A coach helps you stay motivated and accountable. An occupational therapist helps you function better in your actual life. If you're still in the pre-diagnosis stage, see our guide on <a href="/blog/how-to-get-tested-for-adhd-adults" className="text-forest hover:text-forest-dark underline">how to get tested for ADHD as an adult</a>.
-      </p>,
-      <h2 key="specialty" className="text-2xl font-semibold text-forest mt-10 mb-4">What Actually Matters</h2>,
+      <h2 key="specialty" className="text-2xl font-semibold text-forest mt-10 mb-4">What to Look For</h2>,
       <p key="specialty-para">
-        The most important question is not whether someone is “licensed." It’s whether they are experienced with adult ADHD, whether they understand the daily practical challenges, and whether they can help you move from awareness to action.
+        An effective ADHD specialist for adults understands the daily practical challenges of living with ADHD: getting started on tasks, managing time, following through, and navigating emotional regulation. Experience with adult presentations of ADHD matters, since the way ADHD shows up in adults is often quite different from how it looks in children.
       </p>,
       <p key="specialty-para2">
-        If you have adult ADHD, the right specialist should understand that your struggle is not personality or laziness. It is a pattern of executive function differences that shows up in very specific ways.
+        Executive function differences show up in very specific ways in daily life, and the right specialist will help you move from awareness to practical action.
       </p>,
-      <h2 key="cogfun-ot" className="text-2xl font-semibold text-forest mt-10 mb-4">Why CogFun-Trained OT Is Unique</h2>,
+      <h2 key="cogfun-ot" className="text-2xl font-semibold text-forest mt-10 mb-4">What CogFun-Trained OT Offers</h2>,
       <p key="cogfun-ot-para">
-        A CogFun-trained occupational therapist is looking at your routines, your environment, and your work demands. They are not only asking “what are you feeling?" but also “what are you actually doing?"
-      </p>,
-      <p key="cogfun-ot-para2">
-        That means the support is grounded in your life, not on general ADHD advice pulled from a podcast.
+        A CogFun-trained occupational therapist looks at your routines, your environment, and your specific work demands. Sessions focus on what you are actually doing and how to make daily life more manageable. If you're still in the pre-diagnosis stage, see our guide on <a href="/blog/how-to-get-tested-for-adhd-adults" className="text-forest hover:text-forest-dark underline">how to get tested for ADHD as an adult</a>.
       </p>,
       <h2 key="practical" className="text-2xl font-semibold text-forest mt-10 mb-4">Practical Signals to Look For</h2>,
       <p key="practical-para">
         Look for someone who:
       </p>,
       <ul key="practical-list" className="list-disc list-inside space-y-3 ml-4">
-        <li>Talks about executive function and real-life tasks, not just symptoms</li>
-        <li>Uses evidence-based methods rather than broad motivational language</li>
-        <li>Understands that ADHD in adults often looks different than it does in kids</li>
-        <li>Offers a collaborative process, not one-size-fits-all worksheets</li>
+        <li>Understands executive function and how it shows up in real daily life</li>
+        <li>Uses evidence-based methods with a structured, collaborative process</li>
+        <li>Has experience with adult ADHD specifically</li>
+        <li>Builds strategies around your actual life rather than generic templates</li>
       </ul>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Trying to find the right specialist?</p>
@@ -197,7 +190,7 @@ export const blogPosts: BlogPost[] = [
     heroAlt: 'Remote ADHD therapy session on a laptop screen',
     content: [
       <p key="intro">
-        If your to-do list feels full, the last thing you want is another appointment that requires travel, parking, and the stress of leaving the house. That’s why ADHD telehealth therapy can be a real relief.
+        If your to-do list feels full, the last thing you want is another appointment that requires travel, parking, and the stress of leaving the house. That's why ADHD telehealth therapy can be a real relief.
       </p>,
       <p key="intro2">
         For adults with ADHD, telehealth often means one fewer barrier, one less reason to delay, and one more way to keep therapy consistent.
@@ -210,7 +203,7 @@ export const blogPosts: BlogPost[] = [
         Telehealth removes the commute, the waiting room, and the need to manage an unfamiliar environment. It lets you meet from your own space, where your routines and struggles actually happen.
       </p>,
       <p key="why-para2">
-        That makes the work more practical. When we’re looking at how your ADHD shows up in your life, real life is the best place to start. Not sure what to look for in a provider? Read about <a href="/blog/adhd-specialist-near-me-what-to-look-for" className="text-forest hover:text-forest-dark underline">how to choose the right ADHD specialist</a>.
+        That makes the work more practical. When we're looking at how your ADHD shows up in your life, real life is the best place to start. Not sure what to look for in a provider? Read about <a href="/blog/adhd-specialist-near-me-what-to-look-for" className="text-forest hover:text-forest-dark underline">how to choose the right ADHD specialist</a>.
       </p>,
       <h2 key="benefits" className="text-2xl font-semibold text-forest mt-10 mb-4">Good News for NJ and NY Residents</h2>,
       <p key="benefits-para">
@@ -218,14 +211,11 @@ export const blogPosts: BlogPost[] = [
       </p>,
       <h2 key="expect" className="text-2xl font-semibold text-forest mt-10 mb-4">What to Expect in a Telehealth CogFun Session</h2>,
       <p key="expect-para">
-        The sessions are collaborative and practical. We’ll talk about your real tasks, your environment, and the small changes that can make a big difference. You don’t need special software—just a stable video call and your actual life.
+        The sessions are collaborative and practical. We'll talk about your real tasks, your environment, and the small changes that can make a big difference. You don't need special software, just a stable video call and your actual life.
       </p>,
-      <p key="expect-para2">
-        It’s not therapy from a distance; it’s functional coaching and occupational therapy that meets you where you are.
-      </p>,
-      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">This Isn’t a Magic Cure</h2>,
+      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">A Grounded Expectation</h2>,
       <p key="honest-para">
-        If you’re hoping for quick fixes, telehealth won’t change that. But if you want a sustainable way to manage ADHD in adult life, it can make the process easier, more consistent, and more realistic.
+        If you're hoping for quick fixes, telehealth won't change that. But if you want a sustainable way to manage ADHD in adult life, it can make the process easier, more consistent, and more realistic.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Curious about telehealth ADHD therapy?</p>
@@ -239,15 +229,15 @@ export const blogPosts: BlogPost[] = [
     title: 'Does ADHD Get Worse With Age? What Adults Need to Know',
     description: 'Understand how ADHD changes over time and why symptoms often feel harder in adulthood.',
     keywords: 'does adhd get worse with age, can adhd get worse with age, untreated adhd in female adults, adhd symptoms in adult men',
-    excerpt: 'ADHD doesn’t necessarily get worse, but adult life often makes it harder to manage—and that is where support helps.',
+    excerpt: "ADHD doesn't necessarily get worse, but adult life often makes it harder to manage. That is where focused support can help.",
     heroQuery: 'adult woman thinking window',
     heroAlt: 'A thoughtful adult looking out a window with a notebook',
     content: [
       <p key="intro">
-        The short answer is: ADHD itself doesn’t suddenly get worse with age, but adult life often makes it feel that way.
+        The short answer is: ADHD itself doesn't suddenly get worse with age, but adult life often makes it feel that way.
       </p>,
       <p key="intro2">
-        More responsibilities, less external structure, and the expectation that you should have it all together can make ADHD symptoms harder to manage. That does not mean your brain is failing—it means your environment has changed.
+        More responsibilities, less external structure, and the expectation that you should have it all together can make ADHD symptoms harder to manage. The demands in your environment have changed, and those differences become more apparent.
       </p>,
       <p key="services-link">
         Learn more about <a href="/services" className="text-forest hover:text-forest-dark underline">our ADHD treatment services</a> for adults feeling this shift.
@@ -257,19 +247,19 @@ export const blogPosts: BlogPost[] = [
         In childhood, school gives structure. In adulthood, you may be juggling work, relationships, bills, and self-care. That demands more planning, more transitions, and more sustained focus.
       </p>,
       <p key="adult-life-para2">
-        For many people with ADHD, those demands reveal the gaps that were always there. It’s not a new problem; it’s a louder one.
+        For many people with ADHD, those demands reveal gaps that were always there.
       </p>,
       <h2 key="women" className="text-2xl font-semibold text-forest mt-10 mb-4">Why Women Often Notice It Later</h2>,
       <p key="women-para">
         Women are more likely to mask ADHD and to have symptoms show up as internal struggles. That means it often gets missed until adulthood, when the load becomes harder to carry alone. For a deeper look at how this plays out, see our post on <a href="/blog/adhd-symptoms-women-adults" className="text-forest hover:text-forest-dark underline">ADHD symptoms in adult women</a>.
       </p>,
-      <h2 key="good-news" className="text-2xl font-semibold text-forest mt-10 mb-4">The Good News</h2>,
+      <h2 key="good-news" className="text-2xl font-semibold text-forest mt-10 mb-4">What Support Looks Like</h2>,
       <p key="good-news-para">
-        Adult ADHD is treatable, and the right support can make a huge difference. That means you don’t have to wait for a crisis to get help. You can start with real strategies now.
+        With the right approach, adults with ADHD can build practical strategies that make daily life more manageable. The goal isn't to eliminate ADHD but to develop functional routines that work with how your brain actually operates. CogFun is designed specifically for this work.
       </p>,
-      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">What This Isn’t</h2>,
+      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">Setting Realistic Expectations</h2>,
       <p key="honest-para">
-        This is not about becoming a perfect adult overnight. It’s about building more ease into your days and making ADHD less exhausting.
+        Building more ease into your days takes time. CogFun is designed to make that process more manageable, one practical step at a time.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Feeling like ADHD is catching up with you?</p>
@@ -280,7 +270,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-and-anxiety-what-is-the-difference',
-    title: 'ADHD and Anxiety: What’s the Difference and Can You Have Both?',
+    title: "ADHD and Anxiety: What's the Difference and Can You Have Both?",
     description: 'Explore how ADHD and anxiety overlap, how they differ, and what to do when both are present.',
     keywords: 'does adhd cause anxiety, do i have adhd or anxiety, can you have ocd and adhd, psychotherapy for adhd, adhd and depression treatment',
     excerpt: 'ADHD and anxiety often feel the same, but they are different patterns that can both be true at once.',
@@ -288,10 +278,10 @@ export const blogPosts: BlogPost[] = [
     heroAlt: 'A person sitting calmly with hands folded, thinking about emotions',
     content: [
       <p key="intro">
-        If your mind is racing and your heart feels tight, it can be hard to tell whether ADHD or anxiety is driving the experience. The truth is, both can be true—and both deserve attention.
+        If your mind is racing and your heart feels tight, it can be hard to tell whether ADHD or anxiety is driving the experience. The truth is, both can be true, and both deserve attention.
       </p>,
       <p key="intro2">
-        ADHD often creates anxiety not because there is something wrong with you, but because the world asks for focus and consistency in ways your brain doesn’t naturally provide.
+        ADHD often creates anxiety because the world asks for focus and consistency in ways your brain doesn't naturally provide.
       </p>,
       <p key="services-link">
         Learn how <a href="/services" className="text-forest hover:text-forest-dark underline">our ADHD treatment approach</a> can help when anxiety and ADHD overlap.
@@ -305,26 +295,26 @@ export const blogPosts: BlogPost[] = [
         Both can lead to restlessness, trouble sleeping, and a sense of being overwhelmed. Both can make it hard to get started and hard to relax.
       </p>,
       <p key="overlap-para2">
-        That doesn’t mean they are the same. It means the treatment can be different, and good support should recognize both. ADHD also brings its own emotional instability — read more about <a href="/blog/adhd-mood-swings-emotional-dysregulation" className="text-forest hover:text-forest-dark underline">ADHD and mood swings</a> for the fuller picture.
+        They call for different treatment approaches, and good support should recognize both. ADHD also brings its own emotional patterns. Read more about <a href="/blog/adhd-mood-swings-emotional-dysregulation" className="text-forest hover:text-forest-dark underline">ADHD and mood swings</a> for the fuller picture.
       </p>,
       <h2 key="treatment" className="text-2xl font-semibold text-forest mt-10 mb-4">Why This Matters for Treatment</h2>,
       <p key="treatment-para">
-        If you’re treating anxiety without looking at ADHD, you may feel better in the short term but still struggle with daily functioning. If you’re treating ADHD without addressing anxiety, the worry can continue to sap your energy.
+        When anxiety is addressed without looking at ADHD, you may feel better in the short term but still struggle with daily functioning. When ADHD is addressed without acknowledging anxiety, the worry can continue to sap your energy.
       </p>,
       <h2 key="cogfun" className="text-2xl font-semibold text-forest mt-10 mb-4">Where CogFun Fits In</h2>,
       <p key="cogfun-para">
-        CogFun is not therapy for anxiety itself. It is occupational therapy that helps your daily life work better, which often reduces the anxiety that comes from feeling behind, forgetful, or out of control.
+        CogFun is occupational therapy focused on daily functioning, and that often reduces the anxiety that comes from feeling behind, forgetful, or out of control.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
-        <p className="mb-4 text-forest font-semibold">Not sure whether it’s ADHD, anxiety, or both?</p>
-        <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to talk through what you’re experiencing and whether ADHD-focused occupational therapy can help.</p>
+        <p className="mb-4 text-forest font-semibold">Not sure whether it's ADHD, anxiety, or both?</p>
+        <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to talk through what you're experiencing and whether ADHD-focused occupational therapy can help.</p>
         <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
   {
     slug: 'high-functioning-adhd-adults',
-    title: 'High-Functioning ADHD: When You Look Fine But Feel Like You’re Falling Apart',
+    title: "High-Functioning ADHD: When You Look Fine But Feel Like You're Falling Apart",
     description: 'Discover what high-functioning ADHD really looks like and why it often leads to hidden exhaustion.',
     keywords: 'high functioning adhd, am i lazy or do i have adhd, untreated adhd in female adults, adhd and mood swings',
     excerpt: 'High-functioning ADHD is often invisible from the outside and exhausting from the inside.',
@@ -342,19 +332,19 @@ export const blogPosts: BlogPost[] = [
       </p>,
       <h2 key="masking" className="text-2xl font-semibold text-forest mt-10 mb-4">Why It Gets Missed</h2>,
       <p key="masking-para">
-        People with high-functioning ADHD are often good at masking. They compensate with extra effort, structure, or people-pleasing. That can make it harder for clinicians to recognize the real struggle. This pattern is especially common in women — see <a href="/blog/adhd-symptoms-women-adults" className="text-forest hover:text-forest-dark underline">ADHD symptoms in adult women</a> for more on how it presents differently.
+        People with high-functioning ADHD are often good at masking. They compensate with extra effort, structure, or people-pleasing. That can make it harder for clinicians to recognize the real struggle. This pattern is especially common in women. See <a href="/blog/adhd-symptoms-women-adults" className="text-forest hover:text-forest-dark underline">ADHD symptoms in adult women</a> for more on how it presents differently.
       </p>,
       <h2 key="exhaustion" className="text-2xl font-semibold text-forest mt-10 mb-4">The Hidden Exhaustion</h2>,
       <p key="exhaustion-para">
-        The cost of compensating is fatigue, shame, and the feeling that you are always one step behind. That is not a personal failing. It is the price paid for managing ADHD in a system that rewards consistency.
+        Managing ADHD in a system built around consistency takes real effort, and that ongoing effort shows up as fatigue over time.
       </p>,
       <h2 key="cogfun" className="text-2xl font-semibold text-forest mt-10 mb-4">How CogFun Helps</h2>,
       <p key="cogfun-para">
         CogFun helps you stop relying on brittle strategies and start building systems that are sustainable. It focuses on the real daily work you are already doing and makes it easier to keep that work going.
       </p>,
-      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">The Honest Part</h2>,
+      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">What to Expect</h2>,
       <p key="honest-para">
-        This is not a “fix." It’s a way to make your life feel less heavy. The best outcome is not perfection; it’s less struggle and more clarity.
+        CogFun is a way to make your life feel less heavy. The goal is more clarity and less daily struggle.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Want to stop burning yourself out?</p>
@@ -374,10 +364,10 @@ export const blogPosts: BlogPost[] = [
     heroSrc: '/blog/women-adhd-diagnosis.png',
     content: [
       <p key="intro">
-        ADHD in adult women is often baited as “stress" or “overwhelm." That is because it frequently shows up as quiet distraction, emotional overwhelm, and doing too much to cover for what’s needed.
+        ADHD in adult women is often labeled as "stress" or "overwhelm." That is because it frequently shows up as quiet distraction, emotional overwhelm, and doing too much to cover for what's needed.
       </p>,
       <p key="intro2">
-        That doesn’t mean it’s less real. It means it looks different from the stereotype of a hyperactive child.
+        It looks different from the stereotype of a hyperactive child, but it is just as real.
       </p>,
       <p key="services-link">
         Discover how <a href="/services" className="text-forest hover:text-forest-dark underline">our ADHD treatment approach</a> supports adult women with hidden symptoms.
@@ -388,15 +378,15 @@ export const blogPosts: BlogPost[] = [
       </p>,
       <h2 key="masking" className="text-2xl font-semibold text-forest mt-10 mb-4">The Masking Factor</h2>,
       <p key="masking-para">
-        Masking is a survival strategy. It can help you get through the day, but it also increases fatigue and makes it harder to see what support you actually need. If the exhaustion feels familiar, you may also relate to <a href="/blog/high-functioning-adhd-adults" className="text-forest hover:text-forest-dark underline">high-functioning ADHD</a> — when you look fine but feel like you're falling apart.
+        Masking is a survival strategy. It can help you get through the day, but it also increases fatigue and makes it harder to see what support you actually need. If the exhaustion feels familiar, you may also relate to <a href="/blog/high-functioning-adhd-adults" className="text-forest hover:text-forest-dark underline">high-functioning ADHD</a>, when you look fine but feel like you're falling apart.
       </p>,
       <h2 key="why" className="text-2xl font-semibold text-forest mt-10 mb-4">Why This Matters</h2>,
       <p key="why-para">
-        If ADHD is missed, you may get treatment for anxiety or depression and still feel like the underlying patterns are there. That is because you are treating the symptoms, not the functional challenges.
+        When ADHD goes unrecognized, treatment for anxiety or depression may address some symptoms while the underlying functional challenges persist.
       </p>,
       <h2 key="rsd" className="text-2xl font-semibold text-forest mt-10 mb-4">A Note on RSD</h2>,
       <p key="rsd-para">
-        Rejection Sensitive Dysphoria is common in ADHD and often feels especially intense for women who have spent years trying to be a certain way. It’s real, and it’s part of the story. Learn more about <a href="/blog/what-is-rsd-adhd" className="text-forest hover:text-forest-dark underline">what RSD is and how it shows up in ADHD</a>.
+        Rejection Sensitive Dysphoria is common in ADHD and often feels especially intense for women who have spent years trying to be a certain way. It's real, and it's part of the story. Learn more about <a href="/blog/what-is-rsd-adhd" className="text-forest hover:text-forest-dark underline">what RSD is and how it shows up in ADHD</a>.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Wondering if ADHD looks different for you?</p>
@@ -410,16 +400,16 @@ export const blogPosts: BlogPost[] = [
     title: 'What Is RSD? Rejection Sensitive Dysphoria and ADHD Explained',
     description: 'Understand rejection sensitive dysphoria (RSD) in ADHD and how it affects emotions, relationships, and self-perception.',
     keywords: 'what is rsd adhd, adhd and mood swings, emotional dysregulation adhd, does adhd cause anxiety',
-    excerpt: 'RSD feels like emotional pain turned up loud—and it is a common part of many ADHD experiences.',
+    excerpt: 'RSD feels like emotional pain turned up loud, and it is a common part of many ADHD experiences.',
     heroQuery: 'rejection sensitive dysphoria ADHD',
     heroAlt: 'Contemplative adult with emotional expression in a cozy setting',
     heroSrc: '/blog/rsd-adhd.png',
     content: [
       <p key="intro">
-        Rejection Sensitive Dysphoria (RSD) is not a personality flaw. It is a painful emotional response that often comes with ADHD, especially when you’ve felt misunderstood for a long time.
+        Rejection Sensitive Dysphoria (RSD) is a painful emotional response that often comes with ADHD, especially when you've felt misunderstood for a long time.
       </p>,
       <p key="intro2">
-        It might show up as intense hurt from a small comment, or as replaying a conversation all night. That doesn’t mean you are too sensitive. It means your brain is wired to care deeply about connection and belonging.
+        It might show up as intense hurt from a small comment, or as replaying a conversation all night. Your brain is wired to care deeply about connection and belonging.
       </p>,
       <p key="services-link">
         See how <a href="/services" className="text-forest hover:text-forest-dark underline">CogFun occupational therapy</a> addresses emotional dysregulation as part of ADHD care.
@@ -433,15 +423,15 @@ export const blogPosts: BlogPost[] = [
       </p>,
       <h2 key="why" className="text-2xl font-semibold text-forest mt-10 mb-4">Why It Happens With ADHD</h2>,
       <p key="why-para">
-        ADHD traits like emotional dysregulation and low self-esteem can amplify RSD. If you’ve spent years trying to hide your difficulties, the emotional hits feel especially sharp.
+        ADHD traits like emotional dysregulation and low self-esteem can amplify RSD. If you've spent years trying to hide your difficulties, the emotional hits feel especially sharp.
       </p>,
       <h2 key="relationships" className="text-2xl font-semibold text-forest mt-10 mb-4">How It Shows Up</h2>,
       <p key="relationships-para">
-        RSD can make relationships messy. You might overreact to a tone in a text, feel abandoned by someone who is busy, or replay feedback as a personal failure. RSD is also especially common in women who have spent years masking — see <a href="/blog/adhd-symptoms-women-adults" className="text-forest hover:text-forest-dark underline">ADHD symptoms in adult women</a> for how these patterns connect.
+        RSD can make relationships messy. You might overreact to a tone in a text, feel abandoned by someone who is busy, or replay feedback as a personal failure. RSD is also especially common in women who have spent years masking. See <a href="/blog/adhd-symptoms-women-adults" className="text-forest hover:text-forest-dark underline">ADHD symptoms in adult women</a> for how these patterns connect.
       </p>,
       <h2 key="help" className="text-2xl font-semibold text-forest mt-10 mb-4">What Helps</h2>,
       <p key="help-para">
-        The helpful work is not about making the feelings disappear. It is about learning to recognize RSD, pause before reacting, and build strategies that keep your relationships and your self-worth steadier.
+        The helpful work is about learning to recognize RSD, pause before reacting, and build strategies that keep your relationships and your self-worth steadier.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">RSD making everyday moments harder?</p>
@@ -455,22 +445,22 @@ export const blogPosts: BlogPost[] = [
     title: 'How to Focus With ADHD Without Medication: What Actually Works',
     description: 'Find practical non-medication strategies for ADHD focus and why generic advice often falls short.',
     keywords: 'how to focus with adhd, how to focus with adhd without medication, how to treat adhd in adults without meds, executive functioning coaches near me',
-    excerpt: 'Focus with ADHD is possible without medication, but it requires strategies built around how your brain works—not around willpower.',
+    excerpt: 'Focus with ADHD is possible without medication, but it requires strategies built around how your brain works rather than willpower.',
     heroQuery: 'person meditating calm',
     heroAlt: 'A person calmly focusing at a desk with warm light',
     content: [
       <p key="intro">
-        If you’re tired of “just focus" advice, this is for you. ADHD focus is not a character issue. It is a pattern of brain activity that responds to the right supports.
+        If you're tired of "just focus" advice, this is for you. ADHD focus is a pattern of brain activity that responds to the right supports.
       </p>,
       <p key="intro2">
-        Medication helps many people, but it is not the only path. There are practical strategies that can improve focus without relying solely on a pill.
+        Medication helps many people, but there are also practical strategies that can improve focus without relying solely on a pill.
       </p>,
       <p key="services-link">
         See how <a href="/services" className="text-forest hover:text-forest-dark underline">our non-medication ADHD services</a> help you build focus strategies that fit your brain.
       </p>,
       <h2 key="why-tips-fail" className="text-2xl font-semibold text-forest mt-10 mb-4">Why Generic Tips Fail</h2>,
       <p key="why-tips-fail-para">
-        Advice like “use a timer" or “clear your desk" can work for some tasks. The problem is that ADHD doesn’t fail at all tasks equally. It fails in the tasks that feel boring, overwhelming, or uncertain. This is rooted in how <a href="/blog/adhd-executive-function-daily-life" className="text-forest hover:text-forest-dark underline">ADHD affects executive function</a> — the brain’s planning and starting system.
+        Advice like "use a timer" or "clear your desk" can work for some tasks. The problem is that ADHD doesn't fail at all tasks equally. It fails in the tasks that feel boring, overwhelming, or uncertain. This is rooted in how <a href="/blog/adhd-executive-function-daily-life" className="text-forest hover:text-forest-dark underline">ADHD affects executive function</a>, the brain's planning and starting system.
       </p>,
       <h2 key="what-works" className="text-2xl font-semibold text-forest mt-10 mb-4">What Actually Works</h2>,
       <p key="what-works-para">
@@ -478,7 +468,7 @@ export const blogPosts: BlogPost[] = [
       </p>,
       <h2 key="cogfun" className="text-2xl font-semibold text-forest mt-10 mb-4">How CogFun Helps</h2>,
       <p key="cogfun-para">
-        CogFun helps you identify the specific situations where focus fails and build a realistic plan for those moments. It is not about forcing yourself to stare longer—it is about changing the task so your brain can join in.
+        CogFun helps you identify the specific situations where focus fails and build a realistic plan for those moments. CogFun focuses on changing the task setup so your brain can engage more naturally.
       </p>,
       <p key="cogfun-para2">
         That means looking at your environment, your energy, your values, and the small scaffolds that actually keep you moving.
@@ -492,7 +482,7 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'occupational-therapy-adhd-adults',
-    title: 'Why Occupational Therapy for ADHD Is Different From Everything Else You’ve Tried',
+    title: "Why Occupational Therapy for ADHD Is Different From Everything Else You've Tried",
     description: 'Learn what occupational therapy brings to ADHD care and why it is often the missing piece for adults.',
     keywords: 'occupational therapy adhd, occupational therapy and adhd, adhd therapy, therapists specializing in adhd, executive function therapy adults',
     excerpt: 'Occupational therapy is the often-missing bridge between awareness and actual daily functioning for adults with ADHD.',
@@ -500,7 +490,7 @@ export const blogPosts: BlogPost[] = [
     heroAlt: 'Therapist and adult client reviewing practical strategies together',
     content: [
       <p key="intro">
-        If you’ve tried coaching, therapy, and meds and still feel stuck, occupational therapy may be the missing piece. It is not more talk. It is more practicality.
+        Occupational therapy focuses on the practical side of daily life, which is exactly where ADHD creates the most friction.
       </p>,
       <p key="intro2">
         Occupational therapy looks at how you live, work, and move through your day. That is exactly where ADHD shows up.
@@ -512,17 +502,17 @@ export const blogPosts: BlogPost[] = [
       <p key="what-is-ot-para">
         OT is about helping people function better in their daily lives. For ADHD, that means building habits, systems, and routines that actually stick.
       </p>,
-      <h2 key="why-missing" className="text-2xl font-semibold text-forest mt-10 mb-4">Why It’s Often Missing From ADHD Care</h2>,
+      <h2 key="why-missing" className="text-2xl font-semibold text-forest mt-10 mb-4">The Functional Layer</h2>,
       <p key="why-missing-para">
-        ADHD treatment is often focused on diagnosis, medication, or mental health. The functional layer—how you get through work, home, and relationships—is usually left out.
+        The functional layer of getting through work, home, and relationships is often where the most support is needed. ADHD treatment that includes occupational therapy addresses this layer directly.
       </p>,
       <h2 key="cogfun" className="text-2xl font-semibold text-forest mt-10 mb-4">Why CogFun Is the Best OT Approach</h2>,
       <p key="cogfun-para">
-        CogFun is specifically designed for adult ADHD with a structured protocol and research behind it. It isn’t vague or generic; it is built around your actual life. For a full breakdown of how it works, read <a href="/blog/what-is-cogfun-adhd-therapy" className="text-forest hover:text-forest-dark underline">what CogFun is and why it’s different</a>.
+        CogFun is specifically designed for adult ADHD with a structured protocol and research behind it. Built around your actual life rather than generic templates, it delivers targeted support. For a full breakdown of how it works, read <a href="/blog/what-is-cogfun-adhd-therapy" className="text-forest hover:text-forest-dark underline">what CogFun is and why it's different</a>.
       </p>,
-      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">The Honest Claim</h2>,
+      <h2 key="honest" className="text-2xl font-semibold text-forest mt-10 mb-4">What to Expect</h2>,
       <p key="honest-para">
-        OT is not a cure. It is a way to make your daily life less frustrating and more reliable. That is huge for ADHD.
+        OT makes your daily life more reliable and less frustrating. For adults with ADHD, that shift is significant.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Ready to try something different?</p>
@@ -541,25 +531,25 @@ export const blogPosts: BlogPost[] = [
     heroAlt: 'Adult working with ADHD in a calm home office setting',
     content: [
       <p key="intro">
-        ADHD is often described as a difference, but it can also be a disability when it interferes with everyday functioning. That doesn’t make you broken. It makes your needs real.
+        ADHD is often described as a difference, but it can also be a disability when it interferes with everyday functioning. Your needs are real and they deserve real support.
       </p>,
       <p key="intro2">
-        The important part is not the label. The important part is whether you have support for the challenges ADHD creates in life and work.
+        The label matters less than whether you have practical support for the challenges ADHD creates in life and work.
       </p>,
       <p key="services-link">
         Explore <a href="/services" className="text-forest hover:text-forest-dark underline">our ADHD support services</a> built around functional daily challenges, not just the diagnosis.
       </p>,
-      <h2 key="legal" className="text-2xl font-semibold text-forest mt-10 mb-4">What “Disability" Means</h2>,
+      <h2 key="legal" className="text-2xl font-semibold text-forest mt-10 mb-4">What "Disability" Means</h2>,
       <p key="legal-para">
         Legally, disability means a condition that substantially limits major life activities. For many adults with ADHD, focus, organization, time management, and emotional regulation can feel like major life activities.
       </p>,
       <h2 key="real-life" className="text-2xl font-semibold text-forest mt-10 mb-4">What It Means in Real Life</h2>,
       <p key="real-life-para">
-        If ADHD makes work harder, makes you miss deadlines, or makes everyday tasks exhausting, that is not just a personality quirk. It is a functional challenge that deserves support. Much of this comes down to <a href="/blog/adhd-executive-function-daily-life" className="text-forest hover:text-forest-dark underline">how ADHD disrupts executive function in daily life</a>.
+        If ADHD makes work harder, makes you miss deadlines, or makes everyday tasks exhausting, that is a functional challenge that deserves support. Much of this comes down to <a href="/blog/adhd-executive-function-daily-life" className="text-forest hover:text-forest-dark underline">how ADHD disrupts executive function in daily life</a>.
       </p>,
       <h2 key="support" className="text-2xl font-semibold text-forest mt-10 mb-4">Why Treatment Matters</h2>,
       <p key="support-para">
-        Labels are one thing. Practical help is another. CogFun focuses on the functional part—helping you manage your life more effectively, regardless of whether the diagnosis is called a disability.
+        Labels are one thing. Practical help is another. CogFun focuses on the functional part: helping you manage your life more effectively, regardless of whether the diagnosis is called a disability.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Want support that meets your real needs?</p>
@@ -579,10 +569,10 @@ export const blogPosts: BlogPost[] = [
     heroSrc: '/blog/adhd-brain-icon.png',
     content: [
       <p key="intro">
-        Executive function is the brain’s planning and organizing system. For people with ADHD, that system is often unreliable, which is why everyday tasks can feel harder than they should.
+        Executive function is the brain's planning and organizing system. For people with ADHD, that system is often unreliable, which is why everyday tasks can feel harder than they should.
       </p>,
       <p key="intro2">
-        It’s not that you can’t do the task. It’s that the brain isn’t giving you the steady signal you need to start, continue, and finish.
+        The brain often struggles to generate the steady signal needed to start, continue, and finish.
       </p>,
       <p key="services-link">
         Find out how <a href="/services" className="text-forest hover:text-forest-dark underline">our services for executive function</a> help make everyday tasks more reliable.
@@ -593,11 +583,11 @@ export const blogPosts: BlogPost[] = [
       </p>,
       <h2 key="adhd" className="text-2xl font-semibold text-forest mt-10 mb-4">How ADHD Disrupts It</h2>,
       <p key="adhd-para">
-        In ADHD, that system is often inconsistent. One day it works. The next day it doesn’t. That inconsistency is what makes ADHD feel so unpredictable. One of the most common breakdowns is around starting tasks — read about <a href="/blog/why-you-are-not-lazy-task-initiation-adhd" className="text-forest hover:text-forest-dark underline">why task initiation is so hard with ADHD</a>.
+        In ADHD, that system is often inconsistent. One day it works. The next day it doesn't. That inconsistency is what makes ADHD feel so unpredictable. One of the most common ways this shows up is around starting tasks. Read about <a href="/blog/why-you-are-not-lazy-task-initiation-adhd" className="text-forest hover:text-forest-dark underline">why task initiation is so hard with ADHD</a>.
       </p>,
       <h2 key="cogfun" className="text-2xl font-semibold text-forest mt-10 mb-4">How CogFun Helps</h2>,
       <p key="cogfun-para">
-        CogFun helps you build habits and strategies that support your executive function, rather than forcing you to rely on willpower. It’s about making everyday tasks more manageable.
+        CogFun helps you build habits and strategies that support your executive function, rather than forcing you to rely on willpower. It's about making everyday tasks more manageable.
       </p>,
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Ready to make everyday tasks feel easier?</p>
@@ -616,24 +606,24 @@ export const blogPosts: BlogPost[] = [
     heroAlt: 'A person sitting thoughtfully with a warm background, reflecting on emotions',
     content: [
       <p key="intro">
-        Mood swings in ADHD often feel like your feelings are on a roller coaster. One moment you’re fine, the next moment something small becomes huge.
+        Mood swings in ADHD often feel like your feelings are on a roller coaster. One moment you're fine, the next moment something small becomes huge.
       </p>,
       <p key="intro2">
-        That doesn’t mean you’re dramatic. It means your brain has a harder time regulating emotion, especially when stress or overwhelm is present.
+        Your brain has a harder time regulating emotion, especially when stress or overwhelm is present.
       </p>,
       <p key="services-link">
         Learn how <a href="/services" className="text-forest hover:text-forest-dark underline">our ADHD occupational therapy services</a> help with emotional regulation and daily life.
       </p>,
       <h2 key="why" className="text-2xl font-semibold text-forest mt-10 mb-4">Why ADHD Affects Emotion</h2>,
       <p key="why-para">
-        ADHD affects the brain systems that help you pause, evaluate, and choose how to respond. When those systems are weaker, emotions can feel more intense and harder to regulate.
+        ADHD affects the brain systems that help you pause, evaluate, and choose how to respond. When those systems are less consistent, emotions can feel more intense and harder to regulate.
       </p>,
       <p key="related-link-1">
         If you want more on this emotional pattern, see <a href="/blog/what-is-rsd-adhd" className="text-forest hover:text-forest-dark underline">What Is RSD?</a> for another angle on rejection sensitivity.
       </p>,
-      <h2 key="not-mood-disorder" className="text-2xl font-semibold text-forest mt-10 mb-4">This Is Not Always a Mood Disorder</h2>,
+      <h2 key="not-mood-disorder" className="text-2xl font-semibold text-forest mt-10 mb-4">About Emotional Dysregulation in ADHD</h2>,
       <p key="not-mood-disorder-para">
-        Emotional dysregulation in ADHD is not the same thing as bipolar disorder or depression. It is more about how your brain reacts to everyday stress and frustration. If you're also dealing with worry or tension, see how <a href="/blog/adhd-and-anxiety-what-is-the-difference" className="text-forest hover:text-forest-dark underline">ADHD and anxiety overlap and differ</a>.
+        Emotional dysregulation in ADHD is distinct from bipolar disorder or depression. It reflects how your brain reacts to everyday stress and frustration. If you're also dealing with worry or tension, see how <a href="/blog/adhd-and-anxiety-what-is-the-difference" className="text-forest hover:text-forest-dark underline">ADHD and anxiety overlap and differ</a>.
       </p>,
       <h2 key="help" className="text-2xl font-semibold text-forest mt-10 mb-4">What Helps</h2>,
       <p key="help-para">
@@ -651,15 +641,15 @@ export const blogPosts: BlogPost[] = [
     title: 'How to Get Tested for ADHD as an Adult: What You Need to Know',
     description: 'Learn the adult ADHD testing process, who can diagnose it, and what to do after diagnosis.',
     keywords: 'how can i get tested for adhd, how to get screened for adhd, can a therapist diagnose adhd, who does adhd testing, adhd specialist near me',
-    excerpt: 'Getting tested for ADHD as an adult can feel confusing. Here’s what to expect and what comes next.',
+    excerpt: "Getting tested for ADHD as an adult can feel confusing. Here's what to expect and what comes next.",
     heroQuery: 'doctor patient consultation',
     heroAlt: 'A friendly clinician meeting with an adult patient over video call',
     content: [
       <p key="intro">
-        Getting tested for ADHD as an adult can feel like a maze. The good news is: it doesn’t have to be overwhelming if you know what to expect.
+        Getting tested for ADHD as an adult can feel like a maze. The good news is: it doesn't have to be overwhelming if you know what to expect.
       </p>,
       <p key="intro2">
-        The process is not a single test. It is a conversation, a history, and a look at how your brain works today.
+        The process involves a conversation, a history, and a look at how your brain works today.
       </p>,
       <p key="services-link">
         Once you have a diagnosis, see how <a href="/services" className="text-forest hover:text-forest-dark underline">our post-diagnosis ADHD services</a> help you turn it into practical change.

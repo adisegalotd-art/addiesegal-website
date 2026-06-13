@@ -43,7 +43,7 @@ export default function Services() {
         <section className="bg-gradient-to-b from-surface to-cream py-12">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h1 className="text-4xl sm:text-5xl font-serif text-forest mb-6">
-              CogFun Occupational Therapy for Adult ADHD — New Jersey and New York
+              CogFun Occupational Therapy for Adult ADHD in New Jersey and New York
             </h1>
             <p className="text-lg text-muted max-w-3xl">
               A practical, research-backed occupational therapy protocol for adults with ADHD. Telehealth sessions are available across New Jersey and New York.
@@ -58,7 +58,7 @@ export default function Services() {
               CogFun is a structured, 25-session occupational therapy protocol designed specifically for adults with ADHD. It is built around daily life, real challenges, and evidence-based practical strategies.
             </p>
             <p className="text-lg text-muted leading-relaxed">
-              This approach is not a generic productivity program. It helps adults with ADHD understand how their brain works and build functional routines that fit their values, energy, and environment.
+              CogFun is a targeted occupational therapy protocol designed for real daily challenges. It helps adults with ADHD understand how their brain works and build functional routines that fit their values, energy, and environment.
             </p>
           </div>
         </section>
@@ -69,7 +69,7 @@ export default function Services() {
             <div className="space-y-6">
               <div className="bg-cream p-6 rounded-3xl shadow-soft">
                 <h3 className="font-semibold text-forest mb-2">Recently Diagnosed</h3>
-                <p className="text-muted">We build an accurate picture of your ADHD profile — how ADHD has shaped your daily life, how you've been managing it, and where it's had the biggest impact. The work starts in the right place: with you, not a generic checklist.</p>
+                <p className="text-muted">We build an accurate picture of your ADHD profile, including how ADHD has shaped your daily life, how you&apos;ve been managing it, and where it&apos;s had the biggest impact. The work starts in the right place: with you and your actual experience.</p>
               </div>
               <div className="bg-cream p-6 rounded-3xl shadow-soft">
                 <h3 className="font-semibold text-forest mb-2">Long-Diagnosed But Still Struggling</h3>
@@ -97,7 +97,7 @@ export default function Services() {
               </div>
               <div className="bg-surface p-6 rounded-3xl shadow-soft border-l-4 border-forest-dark">
                 <h3 className="text-xl font-semibold text-forest mb-3">2. Strategy Acquisition</h3>
-                <p className="text-muted">We identify what already helps and what drains energy, then build on the strategies that really work for you.</p>
+                <p className="text-muted">We analyze daily situations and interactions, identifying the strategies you&apos;re already using, which ones work, and which ones take too much energy.</p>
               </div>
               <div className="bg-surface p-6 rounded-3xl shadow-soft border-l-4 border-forest-soft">
                 <h3 className="text-xl font-semibold text-forest mb-3">3. General Strategy Development</h3>
@@ -105,7 +105,7 @@ export default function Services() {
               </div>
               <div className="bg-surface p-6 rounded-3xl shadow-soft border-l-4 border-forest">
                 <h3 className="text-xl font-semibold text-forest mb-3">4. Integration and Self-Management</h3>
-                <p className="text-muted">We create a plan you can continue after therapy ends, so the progress lasts.</p>
+                <p className="text-muted">We review everything and build a plan to last beyond the sessions.</p>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@ export default function Services() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">Telehealth Available in New Jersey and New York</h2>
             <p className="text-muted leading-relaxed mb-6">Secure telehealth sessions make therapy accessible and convenient, without the need to commute.</p>
-            <p className="text-muted leading-relaxed">For many adults with ADHD, telehealth is not just easier—it is a more consistent way to keep progress moving forward.</p>
+            <p className="text-muted leading-relaxed">For many adults with ADHD, telehealth offers a more consistent way to keep progress moving forward.</p>
           </div>
         </section>
 

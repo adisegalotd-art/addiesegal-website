@@ -48,7 +48,7 @@ export default function Home() {
               You know what you need to do. Starting it is the problem.
             </h1>
             <p className="text-lg sm:text-xl text-muted mb-8 leading-relaxed max-w-3xl mx-auto">
-              You can see the work, you can care about it, and still your brain stalls, the hours disappear, and the guilt returns. That is not a character flaw. That is ADHD.
+              You see the work, you care about it, and still you don&apos;t start, or you start and lose focus, and before you know it it&apos;s the end of the day and you didn&apos;t do most of what you planned. You find yourself snapping at someone you care about. The guilt cycle continues. That is ADHD.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
@@ -72,14 +72,17 @@ export default function Home() {
       <section className="py-16 bg-cream">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-8">More than just difficulty focusing</h2>
+          <p className="text-lg text-muted mb-6 leading-relaxed">
+            Adult ADHD often looks like an intelligent, capable person who knows what needs to happen and still can&apos;t get started. It&apos;s knowing you have massive potential but struggling to fulfill it. It&apos;s shining with creative tasks but struggling with the mundane, necessary ones. CogFun therapy focuses on the daily functioning layer that is sometimes missing in other types of treatment.
+          </p>
           <p className="text-lg text-muted mb-8 leading-relaxed">
-            Adult ADHD often looks like an intelligent, capable person who knows exactly what needs to happen and still can&apos;t get started. Or you start, and somewhere along the way you lose the thread, scrolling on your phone with no memory of how you got there. Or something small goes wrong and you snap at someone you love, then spend the rest of the day replaying it. Medication helps a lot of people manage focus and impulsivity. Therapy can help with the emotional side. But knowing what to do and actually doing it consistently? That&apos;s the part that&apos;s still missing for a lot of adults with ADHD — and that&apos;s exactly where CogFun comes in.
+            Research shows women are diagnosed with ADHD significantly later than men, often missing years of support they could have had. Nearly half of adults with ADHD also experience anxiety (Kessler et al., 2006). Medication helps a lot of people manage focus and impulsivity. Therapy can help with the emotional side. But knowing what to do and actually doing it consistently is the part that is still missing for a lot of adults with ADHD, and that is exactly where CogFun comes in.
           </p>
 
           <div className="space-y-4">
             <ExpandableSection
               title="Task initiation"
-              content="Starting things can feel like pushing through concrete. This is not laziness. It is a real difficulty with activating the brain's launch system, especially when the work feels boring or uncertain."
+              content="Starting things can feel like pushing through concrete. The brain&apos;s reward system works differently with ADHD, especially when the work feels boring or uncertain. The challenge is real, and it responds to the right strategies."
             />
             <ExpandableSection
               title="Time blindness"
@@ -87,7 +90,7 @@ export default function Home() {
             />
             <ExpandableSection
               title="Inconsistency"
-              content="You can do something perfectly one day and completely fail to replicate it the next. Others interpret this as laziness or not caring. It is neither. ADHD affects access to skills and focus depending on interest, urgency, and environment."
+              content="You can do something perfectly one day and completely fail to replicate it the next. Others may interpret this as a character issue. ADHD affects access to skills and focus depending on interest, urgency, and environment."
             />
             <ExpandableSection
               title="Emotional dysregulation"
@@ -95,7 +98,7 @@ export default function Home() {
             />
             <ExpandableSection
               title="The guilt spiral"
-              content="End of day, the same tasks are still there and the same story repeats. Over time that becomes a narrative about your worth. That story is not accurate. It is the result of a brain that works differently in a world not built for it."
+              content="End of day, the same tasks are still there and the same story repeats. Over time that becomes a narrative about your worth. That story is the result of a brain that works differently in a world not built for it."
             />
             <ExpandableSection
               title="The gap between potential and daily reality"
@@ -120,7 +123,7 @@ export default function Home() {
             </div>
             <div className="bg-cream p-6 rounded-3xl border-l-4 border-forest-dark shadow-soft">
               <h3 className="text-xl font-semibold text-forest mb-3">2. Strategy Acquisition</h3>
-              <p className="text-muted">We identify which strategies you already use, keep what works, and discard what drains you. The goal is not a new you. The goal is a better way of using the you you already are.</p>
+              <p className="text-muted">We analyze daily situations and interactions, identifying the strategies you&apos;re already using, which ones work, and which ones take too much energy.</p>
             </div>
             <div className="bg-cream p-6 rounded-3xl border-l-4 border-forest-soft shadow-soft">
               <h3 className="text-xl font-semibold text-forest mb-3">3. General Strategy Development</h3>
@@ -128,7 +131,7 @@ export default function Home() {
             </div>
             <div className="bg-cream p-6 rounded-3xl border-l-4 border-forest shadow-soft">
               <h3 className="text-xl font-semibold text-forest mb-3">4. Integration and Self-Management</h3>
-              <p className="text-muted">We build a plan that lasts beyond the sessions so you can keep moving forward on your own terms.</p>
+              <p className="text-muted">We review everything and build a plan to last beyond the sessions.</p>
             </div>
           </div>
 

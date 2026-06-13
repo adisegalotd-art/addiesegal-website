@@ -50,7 +50,7 @@ export default function About() {
           <div className="bg-surface p-8 rounded-3xl shadow-soft">
             <h2 className="text-3xl font-serif text-forest mb-4">What is CogFun?</h2>
             <p className="text-lg text-muted leading-relaxed mb-4">
-              CogFun is a structured, evidence-based occupational therapy protocol developed for adults with ADHD. It addresses the practical challenges of daily life—task initiation, time management, emotional regulation, and the gap between what you are capable of and what you actually accomplish.
+              CogFun is a structured, evidence-based occupational therapy protocol developed for adults with ADHD. It addresses the practical challenges of daily life: task initiation, time management, emotional regulation, and the gap between what you are capable of and what you actually accomplish.
             </p>
             <p className="text-lg text-muted leading-relaxed">
               I trained in the CogFun protocol to bring this approach to more adults in the U.S. Unlike general ADHD strategies or coaching, CogFun is designed around how ADHD neurobiology actually works.
@@ -67,10 +67,10 @@ export default function About() {
           <div className="bg-surface p-8 rounded-3xl shadow-soft">
             <h2 className="text-3xl font-serif text-forest mb-4">My Mission</h2>
             <p className="text-lg text-muted leading-relaxed mb-4">
-              My goal is to expand access to evidence-based ADHD care for adults. Too many people struggle without the right support—not because they lack willpower or intelligence, but because their brain works differently and they have not been offered an approach built for how they actually function.
+              My goal is to expand access to evidence-based ADHD care for adults. Too many people struggle without the right support because their brain works differently and they have not been offered an approach built for how they actually function.
             </p>
             <p className="text-lg text-muted leading-relaxed">
-              CogFun changes that. It is not about fixing you. It is about understanding your ADHD and building practical, sustainable strategies that fit your life.
+              CogFun changes that. It helps you understand your ADHD and build practical, sustainable strategies that fit your life.
             </p>
           </div>
         </div>
