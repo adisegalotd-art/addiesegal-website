@@ -41,8 +41,8 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <section className="min-h-screen bg-gradient-to-b from-surface to-cream flex items-center py-20">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <section className="relative min-h-screen bg-gradient-to-b from-surface to-cream flex flex-col justify-center pt-20 pb-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center mb-12">
             <p className="text-sm font-sans font-medium tracking-widest uppercase text-muted mb-4">
               Occupational therapy for adult ADHD using CogFun, an evidence-based approach.
@@ -69,10 +69,21 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Scroll indicator */}
+        <a
+          href="#more-section"
+          aria-label="Scroll to next section"
+          className="absolute bottom-8 left-1/2 -translate-x-1/2 text-muted/60 hover:text-muted transition-colors animate-bounce"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
+        </a>
       </section>
 
       {/* More Than Just Difficulty Focusing */}
-      <section className="py-16 bg-cream">
+      <section id="more-section" className="py-10 bg-cream">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-8">More than just difficulty focusing</h2>
           <p className="text-lg text-muted mb-6 leading-relaxed">
