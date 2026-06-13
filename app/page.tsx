@@ -41,7 +41,7 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <section className="relative min-h-screen bg-gradient-to-b from-surface to-cream flex flex-col justify-center pt-20 pb-16">
+      <section className="relative bg-gradient-to-b from-surface to-cream flex flex-col justify-start pt-12 pb-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center mb-12">
             <p className="text-sm font-sans font-medium tracking-widest uppercase text-muted mb-4">
