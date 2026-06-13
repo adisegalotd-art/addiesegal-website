@@ -137,21 +137,10 @@ export default function Services() {
 
         <section className="py-16 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-serif text-forest mb-6">How CogFun Differs From Other Approaches</h2>
-            <div className="space-y-6">
-              <div className="border-l-4 border-forest pl-4">
-                <h3 className="font-semibold text-forest mb-2 text-lg">vs. ADHD Coaching</h3>
-                <p className="text-muted">Coaching often focuses on motivation. CogFun is occupational therapy that also targets the functional barriers behind executive function.</p>
-              </div>
-              <div className="border-l-4 border-forest-dark pl-4">
-                <h3 className="font-semibold text-forest mb-2 text-lg">vs. CBT for ADHD</h3>
-                <p className="text-muted">CBT is valuable, but it may not address the concrete day-to-day problems of starting and staying on task.</p>
-              </div>
-              <div className="border-l-4 border-forest-soft pl-4">
-                <h3 className="font-semibold text-forest mb-2 text-lg">vs. General Therapy</h3>
-                <p className="text-muted">Therapy is important for emotions. CogFun is designed specifically to build practical strategies for ADHD-related daily functioning.</p>
-              </div>
-            </div>
+            <h2 className="text-3xl font-serif text-forest mb-6">What Makes CogFun Different</h2>
+            <p className="text-lg text-muted leading-relaxed">
+              CogFun is an occupational therapy protocol built specifically for adult ADHD. It focuses on the daily functioning gap, the space between knowing what to do and actually doing it. Rather than working on emotional processing or motivation in isolation, CogFun builds practical strategies directly within your real routines: starting tasks, following through, managing transitions, and regulating the frustration and overwhelm that come with executive functioning challenges.
+            </p>
           </div>
         </section>
 
