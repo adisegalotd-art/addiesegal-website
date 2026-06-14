@@ -23,7 +23,7 @@ const faqs = [
   {
     question: 'Do I need a diagnosis to start CogFun?',
     answer:
-      "A formal ADHD diagnosis isn't required to begin. If you're experiencing symptoms like chronic procrastination, difficulty starting tasks, or trouble following through on plans, CogFun can help you build strategies regardless of whether you have an official diagnosis.",
+      "CogFun is designed for adults with a current ADHD diagnosis from a licensed physician. If you don't yet have a diagnosis, I can help connect you with a physician for an evaluation, and we can begin CogFun once that's in place. Taking medication is not required to start, but having a diagnosis is part of how the protocol is structured.",
   },
   {
     question: "Can occupational therapy help with ADHD if I'm already on medication?",
