@@ -54,11 +54,8 @@ export default function Services() {
         <section className="py-8 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">What is CogFun?</h2>
-            <p className="text-lg text-muted leading-relaxed mb-6">
-              CogFun is a structured, 25-session occupational therapy protocol designed specifically for adults with ADHD. It is built around daily life, real challenges, and evidence-based practical strategies.
-            </p>
             <p className="text-lg text-muted leading-relaxed">
-              CogFun is a targeted occupational therapy protocol designed for real daily challenges. It helps adults with ADHD understand how their brain works and build functional routines that fit their values, energy, and environment.
+              CogFun is a structured occupational therapy protocol of at least 25 sessions, designed specifically for adults with ADHD. It&apos;s built around real daily challenges, evidence-based strategies, and helping you understand how your brain works so you can build functional routines that fit your values, energy, and environment.
             </p>
           </div>
         </section>
