@@ -83,7 +83,7 @@ export default function About() {
             Schedule a free 20-minute consultation to discuss your needs and explore whether CogFun is the right fit for you.
           </p>
           <Link
-            href="/services"
+            href="/contact"
             className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors inline-block"
           >
             Book a Free Call

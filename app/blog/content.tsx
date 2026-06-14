@@ -79,7 +79,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Ready to take a different approach?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to see how CogFun can support your ADHD and everyday functioning.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -130,7 +130,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Want to learn more about CogFun?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore practical, ADHD-friendly strategies for starting the things that matter.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -176,7 +176,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Trying to find the right specialist?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to see whether CogFun occupational therapy is the right fit for your ADHD journey.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -220,7 +220,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Curious about telehealth ADHD therapy?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to see if telehealth CogFun is the right fit for you in NJ or NY.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -264,7 +264,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Feeling like ADHD is catching up with you?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore how CogFun occupational therapy can help you manage adult life more effectively.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -308,7 +308,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Not sure whether it's ADHD, anxiety, or both?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to talk through what you're experiencing and whether ADHD-focused occupational therapy can help.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -349,7 +349,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Want to stop burning yourself out?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to talk about how CogFun occupational therapy can support your high-functioning ADHD.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -394,7 +394,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Wondering if ADHD looks different for you?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore whether adult ADHD is part of your story and how CogFun can help.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -439,7 +439,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">RSD making everyday moments harder?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to talk about how ADHD-focused occupational therapy can help you manage emotional dysregulation.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -479,7 +479,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Want focus strategies that feel real?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore non-medication focus tools that match your ADHD brain.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -520,7 +520,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Ready to try something different?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to see how CogFun occupational therapy can support your adult ADHD experience.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -557,7 +557,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Want support that meets your real needs?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore ADHD care that helps you at work, at home, and everywhere in between.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -595,7 +595,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Ready to make everyday tasks feel easier?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore how CogFun can support your executive function in real life.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -635,7 +635,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Mood swings making life feel shredded?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to explore how ADHD-focused occupational therapy can help you manage emotions more gently.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },
@@ -672,7 +672,7 @@ export const blogPosts: BlogPost[] = [
       <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
         <p className="mb-4 text-forest font-semibold">Ready to move forward after diagnosis?</p>
         <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to discuss how CogFun occupational therapy can support your ADHD journey.</p>
-        <a href="/services" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
       </div>,
     ],
   },

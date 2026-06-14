@@ -55,7 +55,7 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="#cogfun-section"
+                href="/contact"
                 className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors text-center"
               >
                 Book a free 15-minute consultation

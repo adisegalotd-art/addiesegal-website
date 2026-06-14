@@ -26,8 +26,11 @@ export default function Navigation() {
             <Link href="/about" className="hover:text-forest-dark">
               About
             </Link>
+            <Link href="/contact" className="hover:text-forest-dark">
+              Contact
+            </Link>
             <Link
-              href="#book-consultation"
+              href="/contact"
               className="px-4 py-2 bg-forest text-white rounded-full text-sm font-semibold hover:bg-forest-dark transition-colors"
             >
               Book a Call
