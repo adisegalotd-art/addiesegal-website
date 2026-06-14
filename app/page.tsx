@@ -44,7 +44,7 @@ export default function Home() {
       <section className="relative bg-gradient-to-b from-surface to-cream flex flex-col justify-start pt-6 pb-10">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center mb-6">
-            <p className="text-sm font-sans font-medium tracking-widest uppercase text-muted mb-4">
+            <p className="text-sm font-sans font-medium tracking-widest uppercase text-muted mb-6">
               Occupational therapy for adult ADHD using CogFun, an evidence-based approach.
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-forest mb-6 leading-tight">
