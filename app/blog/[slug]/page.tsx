@@ -83,6 +83,14 @@ export async function generateMetadata({ params }: { params: { slug: string } })
     title: post.title,
     description: post.description,
     keywords: post.keywords,
+    alternates: {
+      canonical: `https://addiesegal.com/blog/${params.slug}`,
+    },
     openGraph: getOpenGraph(post.title, post.description, `https://addiesegal.com/blog/${params.slug}`),
+    twitter: {
+      card: 'summary',
+      title: post.title,
+      description: post.description,
+    },
   };
 }

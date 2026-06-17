@@ -5,11 +5,19 @@ export const metadata: Metadata = {
   title: 'CogFun ADHD Occupational Therapy | Adult ADHD Treatment NJ & NY | Addie Segal OTD',
   description: 'CogFun is a research-backed 25-session occupational therapy protocol for adult ADHD. Telehealth sessions available across New Jersey and New York.',
   keywords: 'occupational therapy ADHD, ADHD treatment, CogFun therapy, adult ADHD therapy NJ, telehealth ADHD',
+  alternates: {
+    canonical: 'https://addiesegal.com/services',
+  },
   openGraph: {
     title: 'CogFun ADHD Occupational Therapy | Adult ADHD Treatment NJ & NY | Addie Segal OTD',
     description: 'CogFun is a research-backed 25-session occupational therapy protocol for adult ADHD. Telehealth sessions available across New Jersey and New York.',
     url: 'https://addiesegal.com/services',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'CogFun ADHD Occupational Therapy | Adult ADHD Treatment NJ & NY | Addie Segal OTD',
+    description: 'CogFun is a research-backed 25-session occupational therapy protocol for adult ADHD. Telehealth sessions available across New Jersey and New York.',
   },
 };
 
@@ -135,9 +143,15 @@ export default function Services() {
         <section className="py-8 bg-cream">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">What Makes CogFun Different</h2>
-            <p className="text-lg text-muted leading-relaxed">
+            <p className="text-lg text-muted leading-relaxed mb-8">
               CogFun is an occupational therapy protocol built specifically for adult ADHD. It focuses on the daily functioning gap, the space between knowing what to do and actually doing it. Rather than working on emotional processing or motivation in isolation, CogFun builds practical strategies directly within your real routines: starting tasks, following through, managing transitions, and regulating the frustration and overwhelm that come with executive functioning challenges.
             </p>
+            <Link
+              href="/contact"
+              className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors inline-block"
+            >
+              Get in touch
+            </Link>
           </div>
         </section>
 
@@ -145,7 +159,32 @@ export default function Services() {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-serif text-forest mb-6">Telehealth Available in New Jersey and New York</h2>
             <p className="text-muted leading-relaxed mb-6">Secure telehealth sessions make therapy accessible and convenient, without the need to commute.</p>
-            <p className="text-muted leading-relaxed">For many adults with ADHD, telehealth offers a more consistent way to keep progress moving forward.</p>
+            <p className="text-muted leading-relaxed mb-6">For many adults with ADHD, telehealth offers a more consistent way to keep progress moving forward.</p>
+            <div className="mt-4 space-y-2">
+              <p className="text-sm font-semibold uppercase tracking-wide text-muted mb-3">More on specific topics</p>
+              <ul className="space-y-2">
+                <li>
+                  <Link href="/executive-function-adults" className="text-forest hover:text-forest-dark underline text-sm">
+                    Executive function support for adults with ADHD
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/adhd-medication-not-enough" className="text-forest hover:text-forest-dark underline text-sm">
+                    When ADHD medication might not be enough
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/adhd-therapy-nj" className="text-forest hover:text-forest-dark underline text-sm">
+                    Adult ADHD therapy in New Jersey (telehealth)
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/adhd-therapy-ny" className="text-forest hover:text-forest-dark underline text-sm">
+                    Adult ADHD therapy in New York (telehealth)
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </div>
         </section>
 

@@ -5,11 +5,19 @@ export const metadata: Metadata = {
   title: 'Contact | Addie Segal OTD | CogFun ADHD Occupational Therapy',
   description: 'Get in touch with Dr. Addie Segal to ask about CogFun occupational therapy for adult ADHD or to book a free 15-minute consultation.',
   keywords: 'contact Addie Segal, ADHD occupational therapy NJ, book CogFun consultation',
+  alternates: {
+    canonical: 'https://addiesegal.com/contact',
+  },
   openGraph: {
     title: 'Contact | Addie Segal OTD | CogFun ADHD Occupational Therapy',
     description: 'Get in touch with Dr. Addie Segal to ask about CogFun occupational therapy for adult ADHD or to book a free 15-minute consultation.',
     url: 'https://addiesegal.com/contact',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'Contact | Addie Segal OTD | CogFun ADHD Occupational Therapy',
+    description: 'Get in touch with Dr. Addie Segal to ask about CogFun occupational therapy for adult ADHD or to book a free 15-minute consultation.',
   },
 };
 

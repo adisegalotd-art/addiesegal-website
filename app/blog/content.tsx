@@ -676,6 +676,61 @@ export const blogPosts: BlogPost[] = [
       </div>,
     ],
   },
+  {
+    slug: 'adhd-diagnosed-40s-50s',
+    title: 'ADHD Diagnosed in Your 40s or 50s: What the Research Says, and What Comes Next',
+    description: 'A growing number of adults are receiving an ADHD diagnosis in midlife. Here is what the research says about why it happens so late, and what actually helps.',
+    keywords: 'late ADHD diagnosis adults, ADHD diagnosis 40s, ADHD diagnosis 50s, adult ADHD midlife, ADHD women perimenopause',
+    excerpt: 'A growing number of adults are receiving an ADHD diagnosis in their 40s or 50s. The research helps explain why it happens so late, and what to do next.',
+    heroQuery: 'adult ADHD late diagnosis midlife',
+    heroAlt: 'Adult reflecting at a desk, representing late ADHD diagnosis in midlife',
+    heroSrc: '/blog/adhd-late-diagnosis.png',
+    content: [
+      <p key="intro">
+        By the end of the day, the list is still there. The emails you meant to answer. The form for your kid&apos;s school. The thing you told your partner you&apos;d handle this week. You did things today, plenty of things, but somehow the pile didn&apos;t get smaller. And underneath all of it is a quiet, familiar feeling: I should be better at this by now.
+      </p>,
+      <p key="intro2">
+        If you&apos;re in your 40s or 50s and this feels like the story of your life, not just a bad week, you&apos;re not alone, and you&apos;re not imagining it. A growing number of adults are getting an ADHD diagnosis for the first time at this stage of life, and the research helps explain why, for men and women alike, though the path often looks different.
+      </p>,
+      <h2 key="why-late" className="text-2xl font-semibold text-forest mt-10 mb-4">Why so many people are diagnosed later in life</h2>,
+      <p key="why-late-1">
+        For a lot of people, the moment of recognition comes through their kids. After a child is evaluated for ADHD, it&apos;s common for a parent to look at the list of traits and think, that&apos;s me too. Diagnostic criteria and awareness have changed a lot over the decades, so being missed as a child is the norm for late-identified adults, not the exception.
+      </p>,
+      <p key="why-late-2">
+        For men specifically, late diagnosis often shows up wrapped inside what looks like a midlife crisis. In an ADDitude magazine survey of nearly 1,000 men, 45% said they&apos;d experienced a midlife crisis, and 60% of those said ADHD was a contributor, showing up as career changes, strained relationships, or a sense of having unrealized potential that finally demanded attention.
+      </p>,
+      <p key="why-late-3">
+        For women, the gap is even wider. CDC data shows 61% of women received their ADHD diagnosis during adulthood, compared to 40% of men. Many women spent decades managing, masking, or being told their struggles were just personality, until the demands of adult life (career, parenting, aging parents, sometimes all at once) made the gap between effort and output too large to keep covering.
+      </p>,
+      <p key="why-late-4">
+        There&apos;s also a hormonal piece for women that rarely gets discussed. Symptoms can become more severe in the late 40s or early 50s as estrogen levels drop during perimenopause, which also affects dopamine, a brain chemical that&apos;s already in shorter supply for people with ADHD. So if things that used to be manageable suddenly aren&apos;t, that&apos;s not just stress, there&apos;s a biological reason your usual coping strategies stopped working as well.
+      </p>,
+      <h2 key="means" className="text-2xl font-semibold text-forest mt-10 mb-4">What this means for you</h2>,
+      <p key="means-1">
+        A diagnosis at 40 or 50 isn&apos;t a label for something new. It&apos;s a name for something that&apos;s been part of how your brain works all along. And that name matters, because it changes the question from &quot;what&apos;s wrong with me?&quot; to &quot;what actually helps a brain like mine?&quot;
+      </p>,
+      <h2 key="cogfun" className="text-2xl font-semibold text-forest mt-10 mb-4">Where CogFun comes in</h2>,
+      <p key="cogfun-1">
+        CogFun doesn&apos;t start with generic advice about planners or productivity hacks. It starts with your actual life.
+      </p>,
+      <p key="cogfun-2">
+        The first step is identifying how ADHD shows up specifically for you. Not &quot;people with ADHD struggle with time management&quot; in the abstract, but the actual moments: the meeting you forgot to prep for, the project that stalls right before the finish line, the conversation with your partner that turns into a fight because you forgot, again.
+      </p>,
+      <p key="cogfun-3">
+        From there, we look at real situations from your week, not hypothetical ones. What were you trying to do? What got in the way? What did you already try? This is where most people discover they&apos;ve been managing far more than they give themselves credit for, and also where patterns start to show up.
+      </p>,
+      <p key="cogfun-4">
+        Some of the strategies you&apos;re already using work well. Others are technically working but costing you more energy than they&apos;re worth, the mental equivalent of holding a door shut with your whole body when a lock would do the job. Part of this work is sorting through what you&apos;re already doing and being honest about what to keep, what to adjust, and what to let go of.
+      </p>,
+      <p key="cogfun-5">
+        From there, we build routines and habits designed for how your brain actually operates, not how a productivity book says it should. That might mean restructuring how mornings work, building in recovery time after high-demand tasks, or finding a system for the recurring responsibilities that keep falling through the cracks. The goal isn&apos;t to become a different person. It&apos;s to build a daily life that holds up under the way you&apos;re already wired.
+      </p>,
+      <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
+        <p className="mb-4 text-forest font-semibold">Want to learn more about CogFun?</p>
+        <a href="/contact" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+      </div>,
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string) {

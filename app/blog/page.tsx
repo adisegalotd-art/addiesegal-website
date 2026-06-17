@@ -7,11 +7,19 @@ export const metadata: Metadata = {
   title: 'ADHD Blog | Occupational Therapy for Adult ADHD | Addie Segal OTD',
   description: 'Evidence-based articles on adult ADHD, CogFun therapy, executive function, and occupational therapy from Dr. Addie Segal, OTD.',
   keywords: 'ADHD blog, adult ADHD, occupational therapy ADHD, executive function',
+  alternates: {
+    canonical: 'https://addiesegal.com/blog',
+  },
   openGraph: {
     title: 'ADHD Blog | Occupational Therapy for Adult ADHD | Addie Segal OTD',
     description: 'Evidence-based articles on adult ADHD, CogFun therapy, executive function, and occupational therapy from Dr. Addie Segal, OTD.',
     url: 'https://addiesegal.com/blog',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'ADHD Blog | Occupational Therapy for Adult ADHD | Addie Segal OTD',
+    description: 'Evidence-based articles on adult ADHD, CogFun therapy, executive function, and occupational therapy from Dr. Addie Segal, OTD.',
   },
 };
 

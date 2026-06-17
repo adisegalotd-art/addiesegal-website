@@ -6,38 +6,67 @@ export const metadata: Metadata = {
   title: 'ADHD Therapist NJ | Occupational Therapy for Adult ADHD | Addie Segal OTD',
   description: 'Dr. Addie Segal is an occupational therapist specializing in adult ADHD using CogFun, a structured 25-session protocol. Telehealth ADHD therapy in NJ and NY.',
   keywords: 'ADHD therapist NJ, occupational therapy ADHD, adult ADHD treatment, CogFun therapy, ADHD specialist New Jersey',
+  alternates: {
+    canonical: 'https://addiesegal.com',
+  },
   openGraph: {
     title: 'ADHD Therapist NJ | Occupational Therapy for Adult ADHD | Addie Segal OTD',
     description: 'Dr. Addie Segal is an occupational therapist specializing in adult ADHD using CogFun, a structured 25-session protocol. Telehealth ADHD therapy in NJ and NY.',
     url: 'https://addiesegal.com',
     type: 'website',
   },
+  twitter: {
+    card: 'summary',
+    title: 'ADHD Therapist NJ | Occupational Therapy for Adult ADHD | Addie Segal OTD',
+    description: 'Dr. Addie Segal is an occupational therapist specializing in adult ADHD using CogFun, a structured 25-session protocol. Telehealth ADHD therapy in NJ and NY.',
+  },
 };
 
 export default function Home() {
-  const localBusinessSchema = {
+  const structuredData = {
     '@context': 'https://schema.org',
-    '@type': 'LocalBusiness',
-    name: 'Addie Segal, OTD',
-    description: 'Occupational therapy specializing in adult ADHD using CogFun protocol',
-    url: 'https://addiesegal.com',
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: 'Hoboken',
-      addressLocality: 'Hoboken',
-      addressRegion: 'NJ',
-      addressCountry: 'US',
-    },
-    areaServed: ['New Jersey', 'New York'],
-    serviceType: 'Occupational Therapy - Adult ADHD',
-    priceRange: '$$$',
+    '@graph': [
+      {
+        '@type': 'MedicalBusiness',
+        '@id': 'https://addiesegal.com/#business',
+        name: 'Addie Segal, OTD',
+        description: 'Occupational therapy for adult ADHD using the CogFun protocol, available via telehealth across New Jersey and New York.',
+        url: 'https://addiesegal.com',
+        address: {
+          '@type': 'PostalAddress',
+          addressLocality: 'Hoboken',
+          addressRegion: 'NJ',
+          addressCountry: 'US',
+        },
+        areaServed: [
+          { '@type': 'State', name: 'New Jersey' },
+          { '@type': 'State', name: 'New York' },
+        ],
+        medicalSpecialty: 'Occupational Therapy',
+        priceRange: '$$$',
+        employee: { '@id': 'https://addiesegal.com/#person' },
+      },
+      {
+        '@type': 'Person',
+        '@id': 'https://addiesegal.com/#person',
+        name: 'Addie Segal',
+        honorificSuffix: 'OTD',
+        jobTitle: 'Occupational Therapist',
+        url: 'https://addiesegal.com/about',
+        alumniOf: {
+          '@type': 'EducationalOrganization',
+          name: 'Boston University',
+        },
+        worksFor: { '@id': 'https://addiesegal.com/#business' },
+      },
+    ],
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
       />
 
       {/* Hero Section */}
@@ -85,7 +114,8 @@ export default function Home() {
       {/* More Than Just Difficulty Focusing */}
       <section id="more-section" className="pt-6 pb-10 bg-cream">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-8">More than just difficulty focusing</h2>
+          <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-3">Occupational therapy for adult ADHD in New Jersey and New York.</h2>
+          <p className="text-xl font-semibold text-forest mb-6">More than just difficulty focusing</p>
           <p className="text-lg text-muted mb-6 leading-relaxed">
             Adult ADHD often looks like an intelligent, capable person who knows what needs to happen and still can&apos;t get started. It&apos;s knowing you have massive potential but struggling to fulfill it. It&apos;s shining with creative tasks but struggling with the mundane, necessary ones. CogFun therapy focuses on the daily functioning layer that is sometimes missing in other types of treatment.
           </p>
@@ -172,6 +202,39 @@ export default function Home() {
                 >
                   Budman, Maeir et al. AJOT 2025
                 </a>
+              </li>
+            </ul>
+          </div>
+
+          <p className="mt-8 text-muted">
+            Ready to take the next step?{' '}
+            <Link href="/contact" className="text-forest hover:text-forest-dark underline">
+              Contact me directly.
+            </Link>
+          </p>
+
+          <div className="mt-6 pt-6 border-t border-surface-strong">
+            <p className="text-sm font-semibold uppercase tracking-wide text-muted mb-3">Learn more</p>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/executive-function-adults" className="text-forest hover:text-forest-dark underline text-sm">
+                  Executive function support for adults with ADHD
+                </Link>
+              </li>
+              <li>
+                <Link href="/adhd-medication-not-enough" className="text-forest hover:text-forest-dark underline text-sm">
+                  When ADHD medication might not be enough
+                </Link>
+              </li>
+              <li>
+                <Link href="/adhd-therapy-nj" className="text-forest hover:text-forest-dark underline text-sm">
+                  Adult ADHD therapy in New Jersey (telehealth)
+                </Link>
+              </li>
+              <li>
+                <Link href="/adhd-therapy-ny" className="text-forest hover:text-forest-dark underline text-sm">
+                  Adult ADHD therapy in New York (telehealth)
+                </Link>
               </li>
             </ul>
           </div>

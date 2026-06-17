@@ -5,11 +5,19 @@ export const metadata: Metadata = {
   title: 'About Addie Segal OTD | ADHD Occupational Therapist NJ | CogFun',
   description: 'Dr. Addie Segal is an occupational therapist with a clinical doctorate from Boston University, specializing in adult ADHD using the CogFun protocol. Telehealth across New Jersey and New York.',
   keywords: 'Addie Segal OTD, occupational therapist, ADHD specialist NJ, CogFun therapist',
+  alternates: {
+    canonical: 'https://addiesegal.com/about',
+  },
   openGraph: {
     title: 'About Addie Segal OTD | ADHD Occupational Therapist NJ | CogFun',
     description: 'Dr. Addie Segal is an occupational therapist with a clinical doctorate from Boston University, specializing in adult ADHD using the CogFun protocol. Telehealth across New Jersey and New York.',
     url: 'https://addiesegal.com/about',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'About Addie Segal OTD | ADHD Occupational Therapist NJ | CogFun',
+    description: 'Dr. Addie Segal is an occupational therapist with a clinical doctorate from Boston University, specializing in adult ADHD using the CogFun protocol. Telehealth across New Jersey and New York.',
   },
 };
 

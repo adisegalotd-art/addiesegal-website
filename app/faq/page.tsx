@@ -6,11 +6,19 @@ export const metadata: Metadata = {
   title: 'FAQ | CogFun ADHD Occupational Therapy | Addie Segal OTD',
   description: 'Common questions about CogFun, adult ADHD, and occupational therapy with Dr. Addie Segal in New Jersey and New York.',
   keywords: 'CogFun FAQ, ADHD occupational therapy questions, adult ADHD therapy NJ',
+  alternates: {
+    canonical: 'https://addiesegal.com/faq',
+  },
   openGraph: {
     title: 'FAQ | CogFun ADHD Occupational Therapy | Addie Segal OTD',
     description: 'Common questions about CogFun, adult ADHD, and occupational therapy with Dr. Addie Segal in New Jersey and New York.',
     url: 'https://addiesegal.com/faq',
     type: 'website',
+  },
+  twitter: {
+    card: 'summary',
+    title: 'FAQ | CogFun ADHD Occupational Therapy | Addie Segal OTD',
+    description: 'Common questions about CogFun, adult ADHD, and occupational therapy with Dr. Addie Segal in New Jersey and New York.',
   },
 };
 
@@ -78,7 +86,25 @@ const faqs = [
 ];
 
 export default function FaqPage() {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
+
   return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
     <div className="pt-8">
       <section className="bg-gradient-to-b from-surface to-cream pt-6 pb-8">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -114,5 +140,6 @@ export default function FaqPage() {
         </div>
       </section>
     </div>
+    </>
   );
 }
