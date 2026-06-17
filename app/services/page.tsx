@@ -193,7 +193,9 @@ export default function Services() {
             <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-6">Ready to start?</h2>
             <p className="text-lg text-muted mb-8">Schedule a free 15-minute consultation to discuss your specific challenges and see if CogFun is the right fit.</p>
             <Link
-              href="/contact"
+              href="https://calendar.app.google/HzfuieaR3hG5nWSX8"
+              target="_blank"
+              rel="noopener noreferrer"
               className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors inline-block"
             >
               Book a Free 15-Minute Consultation

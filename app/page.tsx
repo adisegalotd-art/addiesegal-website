@@ -84,7 +84,9 @@ export default function Home() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/contact"
+                href="https://calendar.app.google/HzfuieaR3hG5nWSX8"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors text-center"
               >
                 Book a free 15-minute consultation
@@ -238,6 +240,24 @@ export default function Home() {
               </li>
             </ul>
           </div>
+        </div>
+      </section>
+
+      {/* Bottom CTA Section */}
+      <section className="py-16 bg-cream">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h2 className="text-3xl sm:text-4xl font-serif text-forest mb-4">Ready to Take the Next Step?</h2>
+          <p className="text-lg text-muted mb-8 max-w-2xl mx-auto leading-relaxed">
+            Book a free 15-minute intro call and we&apos;ll talk through what you&apos;re dealing with and whether CogFun is a good fit.
+          </p>
+          <Link
+            href="https://calendar.app.google/HzfuieaR3hG5nWSX8"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 bg-forest text-white rounded-full font-semibold hover:bg-forest-dark transition-colors inline-block"
+          >
+            Book a Call
+          </Link>
         </div>
       </section>
 

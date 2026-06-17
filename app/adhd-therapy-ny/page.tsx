@@ -94,7 +94,9 @@ export default function AdhdTherapyNY() {
             Book a free 15-minute consultation to talk through what you are dealing with and whether CogFun telehealth therapy is the right fit for you.
           </p>
           <Link
-            href="/contact"
+            href="https://calendar.app.google/HzfuieaR3hG5nWSX8"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex rounded-full bg-forest px-8 py-3 text-white font-semibold hover:bg-forest-dark transition-colors"
           >
             Book a free 15-minute consultation
