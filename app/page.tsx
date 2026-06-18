@@ -171,7 +171,7 @@ export default function Home() {
               <h3 className="text-xl font-semibold text-forest mb-3">2. Strategy Acquisition</h3>
               <p className="text-muted">We analyze daily situations and interactions, identifying the strategies you&apos;re already using, which ones work, and which ones take too much energy.</p>
             </div>
-            <div className="bg-cream p-6 rounded-3xl border-l-4 border-forest-soft shadow-soft">
+            <div className="bg-cream p-6 rounded-3xl border-l-4 border-forest shadow-soft">
               <h3 className="text-xl font-semibold text-forest mb-3">3. General Strategy Development</h3>
               <p className="text-muted">We take what works in one moment and help you use it across many situations. The focus is on sustainable, real-life systems, not one-off hacks.</p>
             </div>
