@@ -104,7 +104,7 @@ export default function Services() {
                 <h3 className="text-xl font-semibold text-forest mb-3">2. Strategy Acquisition</h3>
                 <p className="text-muted">We analyze daily situations and interactions, identifying the strategies you&apos;re already using, which ones work, and which ones take too much energy.</p>
               </div>
-              <div className="bg-surface p-6 rounded-3xl shadow-soft border-l-4 border-forest-soft">
+              <div className="bg-surface p-6 rounded-3xl shadow-soft border-l-4 border-muted">
                 <h3 className="text-xl font-semibold text-forest mb-3">3. General Strategy Development</h3>
                 <p className="text-muted">We develop strategies that transfer across tasks, roles, and environments, instead of one-off fixes.</p>
               </div>

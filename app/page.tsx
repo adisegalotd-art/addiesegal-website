@@ -77,7 +77,7 @@ export default function Home() {
               Occupational therapy for adult ADHD using CogFun, an evidence-based approach.
             </p>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif text-forest mb-6 leading-tight">
-              You know what you need to do. Starting it is the problem.
+              You know what you need to do. Getting started is the problem.
             </h1>
             <p className="text-lg sm:text-xl text-muted mb-8 leading-relaxed max-w-3xl mx-auto">
               You see the work, you care about it, and still you don&apos;t start, or you start and lose focus, and before you know it it&apos;s the end of the day and you didn&apos;t do most of what you planned. You find yourself snapping at someone you care about. The guilt cycle continues. This is where CogFun can help.

@@ -29,8 +29,11 @@ export default function About() {
           <div className="grid gap-10 lg:grid-cols-2 items-start">
             <div className="flex flex-col justify-center">
               <h1 className="text-4xl sm:text-5xl font-serif text-forest mb-6">About Addie Segal, OTD</h1>
-              <p className="text-lg text-muted leading-relaxed">
+              <p className="text-lg text-muted leading-relaxed mb-4">
                 I am an occupational therapist with a clinical doctorate from Boston University, specializing in adult ADHD using the CogFun protocol, an evidence-based, practical approach. I have 9 years of experience in neuro rehabilitation, and I&apos;m currently adjunct faculty at Kean University.
+              </p>
+              <p className="text-lg text-muted leading-relaxed">
+                My research focuses on the integration of technology in occupational therapy practice, including the role of artificial intelligence in shaping how occupational therapists work and deliver care.
               </p>
             </div>
             <div className="flex justify-center lg:justify-end order-first lg:order-last">
