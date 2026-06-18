@@ -70,7 +70,7 @@ export default function Home() {
       />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-b from-surface to-cream flex flex-col justify-start pt-6 pb-10">
+      <section className="relative bg-gradient-to-b from-surface to-cream flex flex-col justify-start pt-6 pb-24">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center mb-6">
             <p className="text-sm font-sans font-medium tracking-widest uppercase text-muted mb-6">
