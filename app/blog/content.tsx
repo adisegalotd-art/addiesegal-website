@@ -9,12 +9,19 @@ export type BlogPost = {
   heroQuery: string;
   heroAlt: string;
   heroSrc?: string;
+  author: string;
+  datePublished: string;
+  dateModified: string;
+  sources?: { label: string; url: string }[];
   content: ReactNode[];
 };
 
 export const blogPosts: BlogPost[] = [
   {
     slug: 'what-is-cogfun-adhd-therapy',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'What Is CogFun? The Only Evidence-Based OT Protocol for Adult ADHD',
     description: 'Learn what CogFun is and why occupational therapy is the right evidence-based approach for adult ADHD.',
     keywords: 'occupational therapy adhd, adhd therapy, ADHD OT, CogFun therapy',
@@ -85,6 +92,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'why-you-are-not-lazy-task-initiation-adhd',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: "Why You're Not Lazy: Understanding Task Initiation and ADHD",
     description: 'Learn why task initiation feels impossible with ADHD and how practical strategies can help.',
     keywords: 'is procrastination a sign of adhd, how to focus with adhd, executive functioning coaches near me',
@@ -136,6 +146,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-specialist-near-me-what-to-look-for',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: "Searching for an ADHD Specialist Near You? Here's What to Actually Look For",
     description: 'Learn how to choose the right ADHD specialist and why occupational therapy with CogFun is a strong option.',
     keywords: 'adhd specialist near me, therapist for adhd, therapists specializing in adhd, adhd therapist aid',
@@ -182,6 +195,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-telehealth-therapy-nj-ny',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'ADHD Telehealth Therapy: What It Is and Why It Works for Adults',
     description: 'Explore why telehealth is a strong, convenient option for adult ADHD therapy in New Jersey and New York.',
     keywords: 'adhd telehealth, adhd treatment online, telehealth adhd therapy NJ, adhd therapist NJ',
@@ -226,6 +242,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'does-adhd-get-worse-with-age',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'Does ADHD Get Worse With Age? What Adults Need to Know',
     description: 'Understand how ADHD changes over time and why symptoms often feel harder in adulthood.',
     keywords: 'does adhd get worse with age, can adhd get worse with age, untreated adhd in female adults, adhd symptoms in adult men',
@@ -270,6 +289,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-and-anxiety-what-is-the-difference',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: "ADHD and Anxiety: What's the Difference and Can You Have Both?",
     description: 'Explore how ADHD and anxiety overlap, how they differ, and what to do when both are present.',
     keywords: 'does adhd cause anxiety, do i have adhd or anxiety, can you have ocd and adhd, psychotherapy for adhd, adhd and depression treatment',
@@ -314,6 +336,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'high-functioning-adhd-adults',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: "High-Functioning ADHD: When You Look Fine But Feel Like You're Falling Apart",
     description: 'Discover what high-functioning ADHD really looks like and why it often leads to hidden exhaustion.',
     keywords: 'high functioning adhd, am i lazy or do i have adhd, untreated adhd in female adults, adhd and mood swings',
@@ -355,6 +380,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-symptoms-women-adults',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'ADHD Symptoms in Adult Women: Why It Looks Different Than You Think',
     description: 'Learn how ADHD often shows up differently in adult women and why it can feel invisible for years.',
     keywords: 'symptoms of adhd in adult women, adhd symptoms women, untreated adhd in female adults, high functioning adhd, is adhd neurodivergent',
@@ -400,6 +428,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'what-is-rsd-adhd',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'What Is RSD? Rejection Sensitive Dysphoria and ADHD Explained',
     description: 'Understand rejection sensitive dysphoria (RSD) in ADHD and how it affects emotions, relationships, and self-perception.',
     keywords: 'what is rsd adhd, adhd and mood swings, emotional dysregulation adhd, does adhd cause anxiety',
@@ -445,6 +476,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'how-to-focus-with-adhd-without-medication',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'How to Focus With ADHD Without Medication: What Actually Works',
     description: 'Find practical non-medication strategies for ADHD focus and why generic advice often falls short.',
     keywords: 'how to focus with adhd, how to focus with adhd without medication, how to treat adhd in adults without meds, executive functioning coaches near me',
@@ -485,6 +519,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'occupational-therapy-adhd-adults',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: "Why Occupational Therapy for ADHD Is Different From Everything Else You've Tried",
     description: 'Learn what occupational therapy brings to ADHD care and why it is often the missing piece for adults.',
     keywords: 'occupational therapy adhd, occupational therapy and adhd, adhd therapy, therapists specializing in adhd, executive function therapy adults',
@@ -526,6 +563,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'is-adhd-a-disability',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'Is ADHD a Disability? What It Means for Adults at Work and in Life',
     description: 'Explore whether ADHD is considered a disability and how functional support matters in work and daily life.',
     keywords: 'is adhd considered a disability, does adhd count as a disability, is adhd a learning disability, is adhd neurodivergent, is adhd an intellectual disability',
@@ -563,6 +603,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-executive-function-daily-life',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'ADHD and Executive Function: Why Your Brain Struggles With Everyday Tasks',
     description: 'Learn how executive function challenges affect adult ADHD and why CogFun focuses on practical daily life support.',
     keywords: 'executive functioning coaches near me, how to focus with adhd, task initiation adhd, how to stay focused with adhd',
@@ -601,6 +644,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-mood-swings-emotional-dysregulation',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'ADHD and Mood Swings: Understanding Emotional Dysregulation',
     description: 'Explore how ADHD causes emotional dysregulation and what can help you manage mood swings in everyday life.',
     keywords: 'adhd and mood swings, what is rsd adhd, does adhd cause anxiety, does anxiety cause adhd',
@@ -641,6 +687,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'how-to-get-tested-for-adhd-adults',
+    author: 'Addie Segal',
+    datePublished: '2026-06-10',
+    dateModified: '2026-06-10',
     title: 'How to Get Tested for ADHD as an Adult: What You Need to Know',
     description: 'Learn the adult ADHD testing process, who can diagnose it, and what to do after diagnosis.',
     keywords: 'how can i get tested for adhd, how to get screened for adhd, can a therapist diagnose adhd, who does adhd testing, adhd specialist near me',
@@ -678,6 +727,9 @@ export const blogPosts: BlogPost[] = [
   },
   {
     slug: 'adhd-diagnosed-40s-50s',
+    author: 'Addie Segal',
+    datePublished: '2026-06-14',
+    dateModified: '2026-06-14',
     title: 'ADHD Diagnosed in Your 40s or 50s: What the Research Says, and What Comes Next',
     description: 'A growing number of adults are receiving an ADHD diagnosis in midlife. Here is what the research says about why it happens so late, and what actually helps.',
     keywords: 'late ADHD diagnosis adults, ADHD diagnosis 40s, ADHD diagnosis 50s, adult ADHD midlife, ADHD women perimenopause',
