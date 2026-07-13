@@ -22,8 +22,47 @@ export const metadata: Metadata = {
 };
 
 export default function About() {
+  // Canonical definition of the Person entity stubbed on the homepage (same @id, so
+  // search engines merge them into one author entity rather than two competing ones).
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    '@id': 'https://addiesegal.com/#person',
+    name: 'Addie Segal',
+    honorificPrefix: 'Dr.',
+    honorificSuffix: 'OTD, OTR/L',
+    jobTitle: 'Occupational Therapist',
+    url: 'https://addiesegal.com/about',
+    image: 'https://addiesegal.com/headshot.png',
+    description:
+      'Occupational therapist with a clinical doctorate from Boston University, specializing in adult ADHD using the CogFun protocol. Telehealth across New Jersey and New York.',
+    alumniOf: {
+      '@type': 'EducationalOrganization',
+      name: 'Boston University',
+    },
+    affiliation: {
+      '@type': 'CollegeOrUniversity',
+      name: 'Kean University',
+    },
+    knowsAbout: [
+      'Adult ADHD',
+      'Occupational therapy',
+      'Executive function',
+      'CogFun',
+    ],
+    areaServed: [
+      { '@type': 'State', name: 'New Jersey' },
+      { '@type': 'State', name: 'New York' },
+    ],
+    worksFor: { '@id': 'https://addiesegal.com/#business' },
+  };
+
   return (
     <div className="pt-8">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
       <section className="bg-gradient-to-b from-surface to-cream py-12">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid gap-10 lg:grid-cols-2 items-start">
