@@ -783,6 +783,105 @@ export const blogPosts: BlogPost[] = [
       </div>,
     ],
   },
+  {
+    slug: 'adhd-and-relationships',
+    author: 'Addie Segal',
+    datePublished: '2026-07-20',
+    dateModified: '2026-07-20',
+    title: 'ADHD and Relationships: Why It Feels So Hard, and What Actually Helps',
+    description: 'ADHD strains relationships through executive function and emotion, not a lack of love. A licensed OT on why, and what actually helps couples and marriages.',
+    keywords: 'adhd and relationships, adhd and marriage, women with adhd and relationships, adhd and emotions in relationships, marriage counseling for adhd, adhd and intimacy',
+    excerpt: 'ADHD strains relationships through executive function and emotional regulation, not a lack of love. Why it feels so hard, and what actually helps.',
+    heroQuery: 'couple calm warm conversation at home',
+    heroAlt: 'Two partners sitting together in a calm, warm moment at home',
+    content: [
+      <p key="intro">
+        It usually starts with something small. You forget the thing again, or you snap over something minor and then sit in the guilt for the rest of the night, or your partner uses the word &quot;again,&quot; just that one word, and you hear in it everything you already believe about yourself. If you have ADHD and you love someone, you&apos;ve probably had a version of this evening, and you&apos;ve probably decided it means something about your worth as a person.
+      </p>,
+      <p key="intro2">
+        It doesn&apos;t, but the strain is real, and pretending it away doesn&apos;t help either. So let&apos;s talk about what ADHD actually does inside a relationship, why it isn&apos;t a character flaw, and what genuinely changes things.
+      </p>,
+      <p key="disclaimer-top">
+        I&apos;m Dr. Addie Segal, an occupational therapist who works with adults with ADHD. This is educational, not medical advice, and not a substitute for care from a licensed professional who knows your situation.
+      </p>,
+      <h2 key="why" className="text-2xl font-semibold text-forest mt-10 mb-4">Why does ADHD affect relationships so much?</h2>,
+      <p key="why-1">
+        ADHD affects relationships mainly through executive function and emotional regulation, not through a lack of love or effort. The daily work of a relationship, remembering what matters to your partner, following through on what you said you&apos;d do, managing your reaction when you&apos;re overwhelmed, all leans on exactly the systems ADHD makes less reliable.
+      </p>,
+      <p key="why-2">
+        Russell Barkley, one of the most cited researchers on adult ADHD, describes ADHD as a disorder of self-regulation and performance, not of knowing. You&apos;re not missing the information that your partner wants you to call the plumber or pay the bill. Your brain struggles to reliably turn intention into action at the moment it matters. Barkley also places emotional regulation at the center of ADHD, which is why the feelings can arrive so fast and so big, and why they can be hard to steer once they do.
+      </p>,
+      <p key="why-3">
+        That distinction matters, because it changes who you think you are. The problem is usually not that you don&apos;t care. It&apos;s that wanting to do something and actually doing it don&apos;t automatically connect, and ADHD widens that gap.
+      </p>,
+      <h2 key="bad" className="text-2xl font-semibold text-forest mt-10 mb-4">Is it ADHD, or am I just bad at relationships?</h2>,
+      <p key="bad-1">
+        If you&apos;re asking this question, you&apos;re almost certainly not bad at relationships. You&apos;re more likely someone who has been trying very hard, for a long time, with a brain that was making the work harder than it was for the people around you.
+      </p>,
+      <p key="bad-2">
+        This lands especially hard for women who were diagnosed late. Many spent years being called sensitive, scattered, or too much, and quietly built an identity around being the problem. When the ADHD finally has a name, the relief is real, and so is the grief for all the years spent believing the worst about yourself. If that&apos;s you, the reframe isn&apos;t a slogan. It&apos;s a clinical fact worth sitting with: the pattern you&apos;ve been fighting has a biological basis, and it isn&apos;t a verdict on your character.
+      </p>,
+      <p key="bad-3">
+        Naming that doesn&apos;t fix the dishes or the forgotten birthday. But it changes the ground you stand on while you work on them, and that turns out to matter more than it sounds.
+      </p>,
+      <h2 key="load" className="text-2xl font-semibold text-forest mt-10 mb-4">ADHD and the mental load</h2>,
+      <p key="load-1">
+        The mental load is the invisible work of noticing, planning, and remembering that keeps a household and a relationship running, and it&apos;s often where ADHD shows up most painfully. Holding many open threads at once, the permission slip, the prescription refill, the fact that you&apos;re low on the coffee your partner likes, depends on working memory and organization, which are frequently the least reliable tools in the ADHD toolbox.
+      </p>,
+      <p key="load-2">
+        So the load doesn&apos;t fall apart because you&apos;re lazy or indifferent. It falls apart because you&apos;re trying to hold a dozen invisible items in a system that drops them, and then you carry the blame for each one that hits the floor. Over time both people get worn down, one from dropping, one from catching, and the resentment builds on both sides.
+      </p>,
+      <p key="load-3">
+        What helps here is rarely more mental effort. It&apos;s a functional problem with functional solutions, not a willpower problem, and what those solutions look like is different for every person. The work is finding the specific supports that fit your life and the way your brain works, not adopting someone else&apos;s system.
+      </p>,
+      <h2 key="cycle" className="text-2xl font-semibold text-forest mt-10 mb-4">ADHD and marriage: the conflict cycle</h2>,
+      <p key="cycle-1">
+        One of the most common patterns in ADHD marriages is the slide into a parent-child dynamic, where one partner takes over the reminding and managing, and the other partner starts to feel policed. Melissa Orlov, who writes about ADHD and marriage, named this dynamic clearly, and many couples recognize themselves in it immediately.
+      </p>,
+      <p key="cycle-2">
+        It usually isn&apos;t anyone being cruel. The non-ADHD partner picks up the dropped threads because someone has to, then feels like a nag. The ADHD partner feels criticized and micromanaged, then withdraws or reacts, which produces more dropped threads, which produces more managing. The roles harden, and both people end up lonely inside the marriage.
+      </p>,
+      <p key="cycle-3">
+        Seeing the cycle as a cycle, rather than as evidence that one of you is broken, is the first move out of it. This is also where couples-focused support, whether marriage counseling or a therapist who understands ADHD, can genuinely help, especially when it works on the pattern rather than assigning a villain.
+      </p>,
+      <h2 key="distance" className="text-2xl font-semibold text-forest mt-10 mb-4">ADHD and feeling disconnected or distant</h2>,
+      <p key="distance-1">
+        ADHD can quietly erode intimacy, not through a lack of desire, but through distraction, inconsistency, and the emotional bruising that builds up from years of conflict. A partner who feels constantly managed, or one who feels constantly criticized, slowly stops reaching out, and the distance can feel confusing because the love is still there.
+      </p>,
+      <p key="distance-2">
+        Some of this is the same executive-function story in a different room. Following through on the small bids for connection, remembering the conversation from this morning, being present instead of half-somewhere-else, all draw on the systems ADHD taxes. Some of it is the accumulated hurt that needs to be repaired directly. Both are workable, and neither means the relationship is failing at its core.
+      </p>,
+      <h2 key="helps" className="text-2xl font-semibold text-forest mt-10 mb-4">What actually helps ADHD in relationships?</h2>,
+      <p key="helps-1">
+        The approaches that help most work with your real daily life and your real goals, rather than handing you generic advice to communicate better or try harder. The problem shows up in specific moments, so the change has to be built around those same moments.
+      </p>,
+      <p key="helps-2">In practice, a few things move the needle:</p>,
+      <ul key="helps-list" className="list-disc list-inside space-y-3 ml-4">
+        <li><strong>Change the setup, not just the effort.</strong> ADHD is a performance problem at the moment of action, not a knowledge gap, so resolving to try harder rarely holds. What actually helps is different for every person. There&apos;s no universal fix: a strategy that works for someone else can fail you, and the same tool can help one week and not the next. The point is finding the specific supports that fit your life and the way your brain works.</li>
+        <li><strong>Work on the pattern together, not the blame.</strong> Couples work or ADHD-informed marriage support can interrupt the parent-child cycle when it focuses on the dynamic rather than the villain.</li>
+        <li><strong>Consider whether medication belongs in the picture.</strong> For some adults medication makes the functional work easier to sustain.</li>
+        <li><strong>Build strategies that are actually yours.</strong> The ones that stick are discovered from your own situations, so they carry to the next one instead of staying stuck to a worksheet example.</li>
+      </ul>,
+      <p key="helps-cogfun">
+        This last point is where my own work lives. I&apos;m an occupational therapist, and I use Cog-Fun, an evidence-based, occupation-based approach built specifically for adult ADHD. Rather than handing you a list of tips, we look together at the real situations from your week, the fight, the dropped thread, the moment you shut down, and work out what actually happened and what could hold next time. The research on Cog-Fun for adults so far comes from pilot and feasibility studies rather than large trials, and it reports gains in strategy use, self-awareness, and quality of life. It doesn&apos;t cure ADHD. Life after it is still full of ADHD. The goal is that ADHD stops running your relationships, and that you stop treating every dropped thread as proof that you&apos;re a failure.
+      </p>,
+      <h2 key="gethelp" className="text-2xl font-semibold text-forest mt-10 mb-4">When to get help, and how it works</h2>,
+      <p key="gethelp-1">
+        A good time to get support is when the same fights keep repeating, when the guilt is becoming part of how you see yourself, or when the distance is growing and you want to close it. You don&apos;t need to have hit a crisis to deserve help, and you don&apos;t need a formal diagnosis to start exploring your executive-function challenges, though a diagnosis can be a goal we work toward with a referral.
+      </p>,
+      <p key="gethelp-2">
+        I work with adults with ADHD over telehealth in New Jersey and New York. If you&apos;re there and any of this sounded like your evenings, you can book a free 20-minute consult and we can talk about whether this is a fit. If you&apos;re somewhere else, I hope this gave you a more accurate and kinder map of what you&apos;re dealing with, which is a real place to start.
+      </p>,
+      <p key="closing">
+        You&apos;re not lazy, you&apos;re not broken, and you&apos;re not a failure. This is real, and it can be different.
+      </p>,
+      <div key="cta-box" className="rounded-3xl bg-surface border border-surface-strong p-6 mt-8 shadow-soft">
+        <p className="mb-4 text-forest font-semibold">Wondering if ADHD is straining your relationship?</p>
+        <p className="text-muted leading-relaxed mb-4">Book a free 15-minute consultation to talk about whether CogFun occupational therapy is a fit for you in NJ or NY.</p>
+        <a href="https://calendar.app.google/HzfuieaR3hG5nWSX8" target="_blank" rel="noopener noreferrer" className="inline-flex rounded-full bg-forest px-6 py-3 text-white font-semibold hover:bg-forest-dark transition-colors">Book a free 15-minute consultation</a>
+      </div>,
+    ],
+  },
 ];
 
 export function getBlogPost(slug: string) {
