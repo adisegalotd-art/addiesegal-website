@@ -870,7 +870,7 @@ export const blogPosts: BlogPost[] = [
         A good time to get support is when the same fights keep repeating, when the guilt is becoming part of how you see yourself, or when the distance is growing and you want to close it. You don&apos;t need to have hit a crisis to deserve help, and you don&apos;t need a formal diagnosis to start exploring your executive-function challenges, though a diagnosis can be a goal we work toward with a referral.
       </p>,
       <p key="gethelp-2">
-        I work with adults with ADHD over telehealth in New Jersey and New York. If you&apos;re there and any of this sounded like your evenings, you can book a free 20-minute consult and we can talk about whether this is a fit. If you&apos;re somewhere else, I hope this gave you a more accurate and kinder map of what you&apos;re dealing with, which is a real place to start.
+        I work with adults with ADHD over telehealth in New Jersey and New York. If you&apos;re there and any of this sounded like your evenings, you can book a free 15-minute consult and we can talk about whether this is a fit. If you&apos;re somewhere else, I hope this gave you a more accurate and kinder map of what you&apos;re dealing with, which is a real place to start.
       </p>,
       <p key="closing">
         You&apos;re not lazy, you&apos;re not broken, and you&apos;re not a failure. This is real, and it can be different.
